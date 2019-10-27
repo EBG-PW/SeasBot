@@ -1,0 +1,2062 @@
+0:
+<!doctype html>
+<html lang= 1:en 2:>
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KSQMNNT');</script>
+    <!-- End Google Tag Manager -->
+
+    <meta charset= 3:utf-8 4:>
+    <meta name= 5:viewport 6: content= 7:width=device-width, initial-scale=1, shrink-to-fit=no 8:>
+    <meta property= 9:fb:pages 10: content=110128820399183 />
+    <meta property= 11:og:url 12: content= 13:https://teamtrees.org 14: />
+    <meta property= 15:og:type 16: content= 17:website 18: />
+    <meta property= 19:og:title 20: content= 21:Help Us Plant 20 Million Trees - Join #TeamTrees 22: />
+    <meta property= 23:og:description 24: content= 25:The official site of #TeamTrees. One dollar plants a tree... 26: />
+    <meta property= 27:og:image 28: content= 29:https://teamtrees.org/images/social-share-earth-astronaut-1-9x1.png 30: />
+
+    <!-- Bootstrap CSS -->
+    <link rel= 31:stylesheet 32: href= 33:https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css 34: integrity= 35:sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T 36: crossorigin= 37:anonymous 38:>
+     <!-- Google Fonts CSS -->
+    <link href= 39:https://fonts.googleapis.com/css?family=Montserrat:400,600,900&display=swap 40: rel= 41:stylesheet 42:>
+     <!-- teamtrees CSS -->
+    <link href= 43:css/main.min.css 44: rel= 45:stylesheet 46:>
+    <title>#teamtrees</title>
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src= 47:https://www.googletagmanager.com/ns.html?id=GTM-KSQMNNT 48:
+    height= 49:0 50: width= 51:0 52: style= 53:display:none;visibility:hidden 54:></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- <div id= 55:fb-root 56:></div> -->
+    <div class= 57:hero-background mb-0 58:>
+        <img class= 59:cloud 60: id= 61:cloud-1 62: src= 63:images/cloud.svg 64:>
+        <img class= 65:cloud 66: id= 67:cloud-2 68: src= 69:images/cloud-translucent.svg 70:>
+        <img class= 71:cloud 72: id= 73:cloud-3 74: src= 75:images/cloud.svg 76:>
+        <img class= 77:cloud 78: id= 79:cloud-4 80: src= 81:images/cloud-translucent.svg 82:>
+        <div class= 83:container 84:>
+            <div class= 85:row 86:>
+                <div class= 87:col-lg-5 mx-auto 88:>
+                    <div class= 89:text-center intro-copy 90:>
+                        <h1 class= 91:text-uppercase d-none 92:>#teamtrees</h1>
+                        <h1 class= 93:text-center 94:><img class= 95:team-trees-logo 96: alt= 97:#teamtrees 98: title= 99:#teamtrees 100: src= 101:images/logo-teamtrees-full.svg 102:></h1>
+                        <p class= 103:lead mb-2 104:>Help us plant 20 million trees around the globe by January 1st, 2020.</p>
+
+                        <div class= 105:counter-wrap 106:>
+                            <div id= 107:totalTrees 108: class= 109:counter 110: data-count= 111:2557543 112:>0</div>
+                            <div class= 113:measure-wrap 114:>
+                                <span class= 115:text-uppercase letter-spacing 116: style= 117:top: 4px; 118:>Trees Planted</span>
+                                <img class= 119:counter-underline 120: src= 121:images/counter-underline-blue.svg 122:>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class= 123:bg-green 124:>
+        <img class= 125:divider-right 126: src= 127:images/divider-right-condensed.svg 128:>
+        <div class= 129:container 130:>
+            <div class= 131:row 132:>
+                <div class= 133:col-lg-5 mx-auto 134:>
+                    <div id= 135:donationAmountCard 136: class= 137:card shadow checkout 138:>
+                        <div class= 139:card-header text-uppercase semi-bold 140:>Join Team Trees</div>
+                        <div class= 141:card-body pb-2 142:>
+                            <form>
+                                <p class= 143:text-center text-uppercase 144:>
+                                    <span class= 145:dollar-plants-tree 146:>$1 plants a tree</span>
+                                    <img class= 147:dots mt-2 148: src= 149:images/dots.svg 150:>
+                                </p>
+                                <div class= 151:row 152:>
+                                    <div class= 153:col-4 px-1 mb-2 154:>
+                                        <div class= 155:donation-amount-label 156: data-trees= 157:5 158:>5<br>trees</div>
+                                    </div>
+                                    <div class= 159:col-4 px-1 mb-2 160:>
+                                        <div class= 161:donation-amount-label active 162: data-trees= 163:20 164:>20<br>trees</div>
+                                    </div>
+                                    <div class= 165:col-4 px-1 mb-2 166:>
+                                        <div class= 167:donation-amount-label 168: data-trees= 169:50 170:>50<br>trees</div>
+                                    </div>
+                                </div>
+                                <div class= 171:row align-items-center 172:>
+                                    <div class= 173:col-4 px-1 mb-2 174:>
+                                        <div class= 175:donation-amount-label 176: data-trees= 177:100 178:>100<br>trees</div>
+                                    </div>
+                                    <div class= 179:col-8 px-1 mb-2 180:>
+                                        <input id= 181:otherTreeQuantity 182: data-trees= 183: 184: type= 185:text 186: maxlength= 187:6 188: class= 189:form-control py-3 other-amount 190: placeholder= 191:Other amount 192: />
+                                    </div>
+                                </div>
+                                <div id= 193:invalidAmountMessage 194: class= 195:invalid-msg d-none 196:>Please select or enter a valid amount</div>
+                                <button id= 197:nextDonationAmountCard 198: type= 199:submit 200: class= 201:btn btn-secondary float-right mt-3 202:>Next</button>
+                            </form>
+                        </div>
+                        <div class= 203:card-footer 204:>
+                            <p class= 205:text-center small mb-0 text-uppercase 206:><a target= 207:_blank 208: data-toggle= 209:modal 210: data-target= 211:#FAQ 212:>FAQ</a></p>
+                        </div>
+                    </div>
+
+                    <div id= 213:donorInformationCard 214: class= 215:card shadow checkout d-none 216:>
+                        <div class= 217:card-header text-uppercase semi-bold 218:>Details</div>
+                        <div class= 219:card-body pb-2 220:>
+                            <form>
+                                <div class= 221:form-row 222:>
+                                    <div class= 223:col form-group 224:>
+                                        <input id= 225:name 226: type= 227:text 228: class= 229:form-control 230: placeholder= 231:Display Name 232: maxlength= 233:50 234: value= 235: 236: required>
+                                        <div id= 237:nameMissingMessage 238: class= 239:invalid-msg d-none 240:>Please enter a display name</div>
+                                    </div>
+                                </div>
+                                <div class= 241:form-row 242:>
+                                    <div class= 243:form-group col 244:>
+                                        <input id= 245:email 246: type= 247:email 248: class= 249:form-control 250: placeholder= 251:Email 252: maxlength= 253:80 254: value= 255: 256: required>
+                                        <div id= 257:emailMissingMessage 258: class= 259:invalid-msg d-none 260:>Please enter an email</div>
+                                        <div id= 261:emailInvalidMessage 262: class= 263:invalid-msg d-none 264:>Please enter a valid email</div>
+                                    </div>
+                                </div>
+
+                                <div class= 265:form-row 266:>
+                                    <div class= 267:form-group col 268:>
+                                        <input id= 269:mobilePhone 270: type= 271:tel 272: class= 273:form-control 274: placeholder= 275:Mobile phone 276: maxlength= 277:20 278:>
+                                        <small class= 279:form-text text-muted 280:>optional; by entering a phone number, you consent to receive text messages</small>
+                                    </div>
+                                </div>
+
+                                <div class= 281:form-row 282:>
+                                    <div class= 283:form-group col 284:>
+                                        <textarea rows= 285:2 286: maxlength= 287:40 288: class= 289:form-control 290: id= 291:message 292: placeholder= 293:My TeamTrees message is… 294:></textarea>
+                                         <small class= 295:form-text text-muted 296:>optional</small>
+                                    </div>
+                                </div>
+                                <div class= 297:form-group mb-2 298:>
+                                    <div class= 299:form-check 300:>
+                                        <input id= 301:optInForUpdates 302: class= 303:form-check-input 304: type= 305:checkbox 306:>
+                                        <label class= 307:form-check-label medium 308: for= 309:optInForUpdates 310:>
+                                            I want periodic updates on TeamTrees
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class= 311:form-group mb-2 312:>
+                                    <div class= 313:form-check 314:>
+                                        <input id= 315:optOutRecentDonations 316: class= 317:form-check-input 318: type= 319:checkbox 320:>
+                                        <label class= 321:form-check-label medium 322: for= 323:optOutRecentDonations 324:>
+                                            Please keep my donation anonymous
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <button id= 325:prevDonorInformationCard 326: type= 327:button 328: class= 329:btn mt-3 text-muted 330:>Previous</button>
+                                <button id= 331:nextDonorInformationCard 332: type= 333:submit 334: class= 335:btn btn-secondary float-right mt-3 336:>Next</button>
+                            </form>
+                        </div>
+                        <div class= 337:card-footer 338:>
+                            <p class= 339:text-center small mb-0 text-uppercase 340:><a target= 341:_blank 342: data-toggle= 343:modal 344: data-target= 345:#FAQ 346:>FAQ</a></p>
+                        </div>
+                    </div>
+
+                    <div id= 347:paymentCard 348: class= 349:card shadow checkout d-none 350:>
+                        <div class= 351:card-header text-uppercase semi-bold 352:>Payment</div>
+                        <div class= 353:card-body pb-2 354:>
+                            <ul class= 355:nav nav-tabs 356: id= 357:paymentTabNavigation 358: role= 359:tablist 360:>
+                                    <li id= 361:cardConnectTabNav 362: class= 363:nav-item 364:>
+                                        <a class= 365:nav-link active 366: data-toggle= 367:tab 368: href= 369:#cardConnectTab 370: role= 371:tab 372: aria-controls= 373:card 374: aria-selected= 375:true 376:>Card</a>
+                                    </li>
+                                                                                                    <li id= 377:brainTreeTabNav 378: class= 379:nav-item 380:>
+                                        <a class= 381:nav-link  382: data-toggle= 383:tab 384: href= 385:#brainTreeTab 386: role= 387:tab 388: aria-controls= 389:otherPaymentOptions 390: aria-selected= 391:false 392:><img src= 393:images/logo-paypal-color-landscape.png 394: alt= 395: 396: class= 397:paypal-thumb 398:><img src= 399:images/logo-apple-pay-color-landscape.png 400: alt= 401: 402: class= 403:apple-pay-thumb 404:><img src= 405:images/logo-venmo-color-landscape.png 406: alt= 407: 408: class= 409:venmo-thumb 410:></a>
+                                    </li>
+                            </ul>
+
+                            <div class= 411:tab-content 412: id= 413:paymentMethodTabs 414:>
+                                    <div class= 415:tab-pane fade show active 416: id= 417:cardConnectTab 418: role= 419:tabpanel 420: aria-labelledby= 421:card-tab 422:>
+
+                                    <div class= 423:container pt-3 424:>
+                                        <form>
+                                            <div class= 425:form-row 426:>
+                                                <div class= 427:col form-group 428:>
+                                                    <label for= 429:cardConnectCardholderName 430:>Cardholder Name</label>
+                                                    <input id= 431:cardConnectCardholderName 432: type= 433:text 434: class= 435:form-control 436: maxlength= 437:30 438: required>
+                                                    <div id= 439:cardConnectCardholderNameMissingMessage 440: class= 441:invalid-msg d-none 442:>Enter a cardholder name</div>
+                                                </div>
+                                            </div>
+
+                                            <div class= 443:form-row 444:>
+                                                <div class= 445:col form-group 446:>
+                                                    <label for= 447: 448:>Card number</label>
+                                                    <input type= 449:hidden 450: id= 451:cardConnectToken 452: required />
+                                                    <iframe style= 453:width: 100%; height: 38px; border: 0; margin-bottom: -8px; padding: 0; 454: scrolling= 455:no 456: src= 457:https://fts.cardconnect.com/itoke/ajax-tokenizer.html?enhancedresponse=true&tokenizewheninactive=true&inactivityto=500&invalidinputevent=true&css=html%2Cbody%2Cform%7Bmargin%3A0%3Bpadding%3A0%3B%7Dinput%7Bdisplay%3Ablock%3Bwidth%3A100%25%3Bpadding%3A.375rem%20.75rem%3Bmargin%3A0%3Bborder-radius%3A.25rem%3Bborder%3A1px%20solid%20%23ced4da%3Bbox-sizing%3Aborder-box%3Bfont-size%3A1rem%3Bfont-weight%3A400%3Bline-height%3A1.5%3Bcolor%3A%23495057%3B%7D%3A%3Aplaceholder%7Bcolor%3Ablue%7D 458:></iframe>
+                                                    <div id= 459:cardConnectInvalidCardNumberMessage 460: class= 461:invalid-msg d-none 462:>Invalid Account Number</div>
+                                                </div>
+                                            </div>
+
+                                            <div class= 463:row 464:>
+                                                <div class= 465:col-md-7 466:>
+                                                    <div class= 467:form-group 468:>
+                                                        <label for= 469:cardConnectExpiryMonth 470:>Expiration date</label>
+                                                        <div class= 471:row 472:>
+                                                            <div class= 473:col-6 474:>
+                                                                <select id= 475:cardConnectExpiryMonth 476: class= 477:form-control 478: required>
+                                                                    <option value= 479: 480: selected></option>
+                                                                        <option value= 481:01 482:>01</option>
+                                                                        <option value= 483:02 484:>02</option>
+                                                                        <option value= 485:03 486:>03</option>
+                                                                        <option value= 487:04 488:>04</option>
+                                                                        <option value= 489:05 490:>05</option>
+                                                                        <option value= 491:06 492:>06</option>
+                                                                        <option value= 493:07 494:>07</option>
+                                                                        <option value= 495:08 496:>08</option>
+                                                                        <option value= 497:09 498:>09</option>
+                                                                        <option value= 499:10 500:>10</option>
+                                                                        <option value= 501:11 502:>11</option>
+                                                                        <option value= 503:12 504:>12</option>
+                                                                </select>
+                                                                <div id= 505:cardConnectExpiryMonthMissingMessage 506: class= 507:invalid-msg d-none 508:>Select a month</div>
+                                                            </div>
+                                                            <div class= 509:col-6 pl-0 510:>
+                                                                <select id= 511:cardConnectExpiryYear 512: class= 513:form-control 514: required>
+                                                                    <option value= 515: 516: selected></option>
+                                                                        <option value= 517:19 518:>2019</option>
+                                                                        <option value= 519:20 520:>2020</option>
+                                                                        <option value= 521:21 522:>2021</option>
+                                                                        <option value= 523:22 524:>2022</option>
+                                                                        <option value= 525:23 526:>2023</option>
+                                                                        <option value= 527:24 528:>2024</option>
+                                                                        <option value= 529:25 530:>2025</option>
+                                                                        <option value= 531:26 532:>2026</option>
+                                                                        <option value= 533:27 534:>2027</option>
+                                                                        <option value= 535:28 536:>2028</option>
+                                                                        <option value= 537:29 538:>2029</option>
+                                                                        <option value= 539:30 540:>2030</option>
+                                                                        <option value= 541:31 542:>2031</option>
+                                                                        <option value= 543:32 544:>2032</option>
+                                                                        <option value= 545:33 546:>2033</option>
+                                                                        <option value= 547:34 548:>2034</option>
+                                                                        <option value= 549:35 550:>2035</option>
+                                                                        <option value= 551:36 552:>2036</option>
+                                                                        <option value= 553:37 554:>2037</option>
+                                                                        <option value= 555:38 556:>2038</option>
+                                                                        <option value= 557:39 558:>2039</option>
+                                                                        <option value= 559:40 560:>2040</option>
+                                                                        <option value= 561:41 562:>2041</option>
+                                                                        <option value= 563:42 564:>2042</option>
+                                                                        <option value= 565:43 566:>2043</option>
+                                                                        <option value= 567:44 568:>2044</option>
+                                                                        <option value= 569:45 570:>2045</option>
+                                                                        <option value= 571:46 572:>2046</option>
+                                                                        <option value= 573:47 574:>2047</option>
+                                                                        <option value= 575:48 576:>2048</option>
+                                                                        <option value= 577:49 578:>2049</option>
+                                                                </select>
+                                                                <div id= 579:cardConnectExpiryYearMissingMessage 580: class= 581:invalid-msg d-none 582:>Select a year</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class= 583:col-md-5 584:>
+                                                    <div class= 585:form-group 586:>
+                                                        <label for= 587:cardConnectCvv2 588:>Security code</label>
+                                                        <input type= 589:text 590: class= 591:form-control 592: id= 593:cardConnectCvv2 594: maxlength= 595:4 596: required>
+                                                        <div id= 597:cardConnectCvv2MissingMessage 598: class= 599:invalid-msg d-none 600:>Enter a security code</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class= 601:row 602:>
+                                                <div class= 603:col-md-5 604:>
+                                                    <div class= 605:form-group 606:>
+                                                        <label for= 607:cardConnectPostalCode 608:>Postal code</label>
+                                                        <input id= 609:cardConnectPostalCode 610: type= 611:text 612: class= 613:form-control 614: maxlength= 615:9 616: required>
+                                                        <div id= 617:cardConnectPostalCodeMissingMessage 618: class= 619:invalid-msg d-none 620:>Enter a postal code</div>
+                                                    </div>
+                                                </div>
+                                                <div class= 621:col-md-7 622:>
+                                                    <div class= 623:form-group 624:>
+                                                        <label for= 625:cardConnectCountryCode 626:>Country</label>
+                                                        <select id= 627:cardConnectCountryCode 628: class= 629:form-control 630: required>
+                                                            <option value= 631:US 632: selected>United States</option>
+                                                            <option disabled>──────────</option>
+                                                            <option value= 633:AF 634:>Afghanistan</option>
+                                                            <option value= 635:AX 636:>Åland Islands</option>
+                                                            <option value= 637:AL 638:>Albania</option>
+                                                            <option value= 639:DZ 640:>Algeria</option>
+                                                            <option value= 641:AS 642:>American Samoa</option>
+                                                            <option value= 643:AD 644:>Andorra</option>
+                                                            <option value= 645:AO 646:>Angola</option>
+                                                            <option value= 647:AI 648:>Anguilla</option>
+                                                            <option value= 649:AQ 650:>Antarctica</option>
+                                                            <option value= 651:AG 652:>Antigua and Barbuda</option>
+                                                            <option value= 653:AR 654:>Argentina</option>
+                                                            <option value= 655:AM 656:>Armenia</option>
+                                                            <option value= 657:AW 658:>Aruba</option>
+                                                            <option value= 659:AU 660:>Australia</option>
+                                                            <option value= 661:AT 662:>Austria</option>
+                                                            <option value= 663:AZ 664:>Azerbaijan</option>
+                                                            <option value= 665:BS 666:>Bahamas</option>
+                                                            <option value= 667:BH 668:>Bahrain</option>
+                                                            <option value= 669:BD 670:>Bangladesh</option>
+                                                            <option value= 671:BB 672:>Barbados</option>
+                                                            <option value= 673:BY 674:>Belarus</option>
+                                                            <option value= 675:BE 676:>Belgium</option>
+                                                            <option value= 677:BZ 678:>Belize</option>
+                                                            <option value= 679:BJ 680:>Benin</option>
+                                                            <option value= 681:BM 682:>Bermuda</option>
+                                                            <option value= 683:BT 684:>Bhutan</option>
+                                                            <option value= 685:BO 686:>Bolivia (Plurinational State of)</option>
+                                                            <option value= 687:BQ 688:>Bonaire, Sint Eustatius and Saba</option>
+                                                            <option value= 689:BA 690:>Bosnia and Herzegovina</option>
+                                                            <option value= 691:BW 692:>Botswana</option>
+                                                            <option value= 693:BV 694:>Bouvet Island</option>
+                                                            <option value= 695:BR 696:>Brazil</option>
+                                                            <option value= 697:IO 698:>British Indian Ocean Territory</option>
+                                                            <option value= 699:BN 700:>Brunei Darussalam</option>
+                                                            <option value= 701:BG 702:>Bulgaria</option>
+                                                            <option value= 703:BF 704:>Burkina Faso</option>
+                                                            <option value= 705:BI 706:>Burundi</option>
+                                                            <option value= 707:CV 708:>Cabo Verde</option>
+                                                            <option value= 709:KH 710:>Cambodia</option>
+                                                            <option value= 711:CM 712:>Cameroon</option>
+                                                            <option value= 713:CA 714:>Canada</option>
+                                                            <option value= 715:KY 716:>Cayman Islands</option>
+                                                            <option value= 717:CF 718:>Central African Republic</option>
+                                                            <option value= 719:TD 720:>Chad</option>
+                                                            <option value= 721:CL 722:>Chile</option>
+                                                            <option value= 723:CN 724:>China</option>
+                                                            <option value= 725:CX 726:>Christmas Island</option>
+                                                            <option value= 727:CC 728:>Cocos (Keeling) Islands</option>
+                                                            <option value= 729:CO 730:>Colombia</option>
+                                                            <option value= 731:KM 732:>Comoros</option>
+                                                            <option value= 733:CG 734:>Congo</option>
+                                                            <option value= 735:CD 736:>Congo, Democratic Republic of the</option>
+                                                            <option value= 737:CK 738:>Cook Islands</option>
+                                                            <option value= 739:CR 740:>Costa Rica</option>
+                                                            <option value= 741:CI 742:>Côte d'Ivoire</option>
+                                                            <option value= 743:HR 744:>Croatia</option>
+                                                            <option value= 745:CU 746:>Cuba</option>
+                                                            <option value= 747:CW 748:>Curaçao</option>
+                                                            <option value= 749:CY 750:>Cyprus</option>
+                                                            <option value= 751:CZ 752:>Czechia</option>
+                                                            <option value= 753:DK 754:>Denmark</option>
+                                                            <option value= 755:DJ 756:>Djibouti</option>
+                                                            <option value= 757:DM 758:>Dominica</option>
+                                                            <option value= 759:DO 760:>Dominican Republic</option>
+                                                            <option value= 761:EC 762:>Ecuador</option>
+                                                            <option value= 763:EG 764:>Egypt</option>
+                                                            <option value= 765:SV 766:>El Salvador</option>
+                                                            <option value= 767:GQ 768:>Equatorial Guinea</option>
+                                                            <option value= 769:ER 770:>Eritrea</option>
+                                                            <option value= 771:EE 772:>Estonia</option>
+                                                            <option value= 773:SZ 774:>Eswatini</option>
+                                                            <option value= 775:ET 776:>Ethiopia</option>
+                                                            <option value= 777:FK 778:>Falkland Islands (Malvinas)</option>
+                                                            <option value= 779:FO 780:>Faroe Islands</option>
+                                                            <option value= 781:FJ 782:>Fiji</option>
+                                                            <option value= 783:FI 784:>Finland</option>
+                                                            <option value= 785:FR 786:>France</option>
+                                                            <option value= 787:GF 788:>French Guiana</option>
+                                                            <option value= 789:PF 790:>French Polynesia</option>
+                                                            <option value= 791:TF 792:>French Southern Territories</option>
+                                                            <option value= 793:GA 794:>Gabon</option>
+                                                            <option value= 795:GM 796:>Gambia</option>
+                                                            <option value= 797:GE 798:>Georgia</option>
+                                                            <option value= 799:DE 800:>Germany</option>
+                                                            <option value= 801:GH 802:>Ghana</option>
+                                                            <option value= 803:GI 804:>Gibraltar</option>
+                                                            <option value= 805:GR 806:>Greece</option>
+                                                            <option value= 807:GL 808:>Greenland</option>
+                                                            <option value= 809:GD 810:>Grenada</option>
+                                                            <option value= 811:GP 812:>Guadeloupe</option>
+                                                            <option value= 813:GU 814:>Guam</option>
+                                                            <option value= 815:GT 816:>Guatemala</option>
+                                                            <option value= 817:GG 818:>Guernsey</option>
+                                                            <option value= 819:GN 820:>Guinea</option>
+                                                            <option value= 821:GW 822:>Guinea-Bissau</option>
+                                                            <option value= 823:GY 824:>Guyana</option>
+                                                            <option value= 825:HT 826:>Haiti</option>
+                                                            <option value= 827:HM 828:>Heard Island and McDonald Islands</option>
+                                                            <option value= 829:VA 830:>Holy See</option>
+                                                            <option value= 831:HN 832:>Honduras</option>
+                                                            <option value= 833:HK 834:>Hong Kong</option>
+                                                            <option value= 835:HU 836:>Hungary</option>
+                                                            <option value= 837:IS 838:>Iceland</option>
+                                                            <option value= 839:IN 840:>India</option>
+                                                            <option value= 841:ID 842:>Indonesia</option>
+                                                            <option value= 843:IR 844:>Iran (Islamic Republic of)</option>
+                                                            <option value= 845:IQ 846:>Iraq</option>
+                                                            <option value= 847:IE 848:>Ireland</option>
+                                                            <option value= 849:IM 850:>Isle of Man</option>
+                                                            <option value= 851:IL 852:>Israel</option>
+                                                            <option value= 853:IT 854:>Italy</option>
+                                                            <option value= 855:JM 856:>Jamaica</option>
+                                                            <option value= 857:JP 858:>Japan</option>
+                                                            <option value= 859:JE 860:>Jersey</option>
+                                                            <option value= 861:JO 862:>Jordan</option>
+                                                            <option value= 863:KZ 864:>Kazakhstan</option>
+                                                            <option value= 865:KE 866:>Kenya</option>
+                                                            <option value= 867:KI 868:>Kiribati</option>
+                                                            <option value= 869:KP 870:>Korea (Democratic People's Republic of)</option>
+                                                            <option value= 871:KR 872:>Korea, Republic of</option>
+                                                            <option value= 873:KW 874:>Kuwait</option>
+                                                            <option value= 875:KG 876:>Kyrgyzstan</option>
+                                                            <option value= 877:LA 878:>Lao People's Democratic Republic</option>
+                                                            <option value= 879:LV 880:>Latvia</option>
+                                                            <option value= 881:LB 882:>Lebanon</option>
+                                                            <option value= 883:LS 884:>Lesotho</option>
+                                                            <option value= 885:LR 886:>Liberia</option>
+                                                            <option value= 887:LY 888:>Libya</option>
+                                                            <option value= 889:LI 890:>Liechtenstein</option>
+                                                            <option value= 891:LT 892:>Lithuania</option>
+                                                            <option value= 893:LU 894:>Luxembourg</option>
+                                                            <option value= 895:MO 896:>Macao</option>
+                                                            <option value= 897:MG 898:>Madagascar</option>
+                                                            <option value= 899:MW 900:>Malawi</option>
+                                                            <option value= 901:MY 902:>Malaysia</option>
+                                                            <option value= 903:MV 904:>Maldives</option>
+                                                            <option value= 905:ML 906:>Mali</option>
+                                                            <option value= 907:MT 908:>Malta</option>
+                                                            <option value= 909:MH 910:>Marshall Islands</option>
+                                                            <option value= 911:MQ 912:>Martinique</option>
+                                                            <option value= 913:MR 914:>Mauritania</option>
+                                                            <option value= 915:MU 916:>Mauritius</option>
+                                                            <option value= 917:YT 918:>Mayotte</option>
+                                                            <option value= 919:MX 920:>Mexico</option>
+                                                            <option value= 921:FM 922:>Micronesia (Federated States of)</option>
+                                                            <option value= 923:MD 924:>Moldova, Republic of</option>
+                                                            <option value= 925:MC 926:>Monaco</option>
+                                                            <option value= 927:MN 928:>Mongolia</option>
+                                                            <option value= 929:ME 930:>Montenegro</option>
+                                                            <option value= 931:MS 932:>Montserrat</option>
+                                                            <option value= 933:MA 934:>Morocco</option>
+                                                            <option value= 935:MZ 936:>Mozambique</option>
+                                                            <option value= 937:MM 938:>Myanmar</option>
+                                                            <option value= 939:NA 940:>Namibia</option>
+                                                            <option value= 941:NR 942:>Nauru</option>
+                                                            <option value= 943:NP 944:>Nepal</option>
+                                                            <option value= 945:NL 946:>Netherlands</option>
+                                                            <option value= 947:NC 948:>New Caledonia</option>
+                                                            <option value= 949:NZ 950:>New Zealand</option>
+                                                            <option value= 951:NI 952:>Nicaragua</option>
+                                                            <option value= 953:NE 954:>Niger</option>
+                                                            <option value= 955:NG 956:>Nigeria</option>
+                                                            <option value= 957:NU 958:>Niue</option>
+                                                            <option value= 959:NF 960:>Norfolk Island</option>
+                                                            <option value= 961:MK 962:>North Macedonia</option>
+                                                            <option value= 963:MP 964:>Northern Mariana Islands</option>
+                                                            <option value= 965:NO 966:>Norway</option>
+                                                            <option value= 967:OM 968:>Oman</option>
+                                                            <option value= 969:PK 970:>Pakistan</option>
+                                                            <option value= 971:PW 972:>Palau</option>
+                                                            <option value= 973:PS 974:>Palestine, State of</option>
+                                                            <option value= 975:PA 976:>Panama</option>
+                                                            <option value= 977:PG 978:>Papua New Guinea</option>
+                                                            <option value= 979:PY 980:>Paraguay</option>
+                                                            <option value= 981:PE 982:>Peru</option>
+                                                            <option value= 983:PH 984:>Philippines</option>
+                                                            <option value= 985:PN 986:>Pitcairn</option>
+                                                            <option value= 987:PL 988:>Poland</option>
+                                                            <option value= 989:PT 990:>Portugal</option>
+                                                            <option value= 991:PR 992:>Puerto Rico</option>
+                                                            <option value= 993:QA 994:>Qatar</option>
+                                                            <option value= 995:RE 996:>Réunion</option>
+                                                            <option value= 997:RO 998:>Romania</option>
+                                                            <option value= 999:RU 1000:>Russian Federation</option>
+                                                            <option value= 1001:RW 1002:>Rwanda</option>
+                                                            <option value= 1003:BL 1004:>Saint Barthélemy</option>
+                                                            <option value= 1005:SH 1006:>Saint Helena, Ascension and Tristan da Cunha</option>
+                                                            <option value= 1007:KN 1008:>Saint Kitts and Nevis</option>
+                                                            <option value= 1009:LC 1010:>Saint Lucia</option>
+                                                            <option value= 1011:MF 1012:>Saint Martin (French part)</option>
+                                                            <option value= 1013:PM 1014:>Saint Pierre and Miquelon</option>
+                                                            <option value= 1015:VC 1016:>Saint Vincent and the Grenadines</option>
+                                                            <option value= 1017:WS 1018:>Samoa</option>
+                                                            <option value= 1019:SM 1020:>San Marino</option>
+                                                            <option value= 1021:ST 1022:>Sao Tome and Principe</option>
+                                                            <option value= 1023:SA 1024:>Saudi Arabia</option>
+                                                            <option value= 1025:SN 1026:>Senegal</option>
+                                                            <option value= 1027:RS 1028:>Serbia</option>
+                                                            <option value= 1029:SC 1030:>Seychelles</option>
+                                                            <option value= 1031:SL 1032:>Sierra Leone</option>
+                                                            <option value= 1033:SG 1034:>Singapore</option>
+                                                            <option value= 1035:SX 1036:>Sint Maarten (Dutch part)</option>
+                                                            <option value= 1037:SK 1038:>Slovakia</option>
+                                                            <option value= 1039:SI 1040:>Slovenia</option>
+                                                            <option value= 1041:SB 1042:>Solomon Islands</option>
+                                                            <option value= 1043:SO 1044:>Somalia</option>
+                                                            <option value= 1045:ZA 1046:>South Africa</option>
+                                                            <option value= 1047:GS 1048:>South Georgia and the South Sandwich Islands</option>
+                                                            <option value= 1049:SS 1050:>South Sudan</option>
+                                                            <option value= 1051:ES 1052:>Spain</option>
+                                                            <option value= 1053:LK 1054:>Sri Lanka</option>
+                                                            <option value= 1055:SD 1056:>Sudan</option>
+                                                            <option value= 1057:SR 1058:>Suriname</option>
+                                                            <option value= 1059:SJ 1060:>Svalbard and Jan Mayen</option>
+                                                            <option value= 1061:SE 1062:>Sweden</option>
+                                                            <option value= 1063:CH 1064:>Switzerland</option>
+                                                            <option value= 1065:SY 1066:>Syrian Arab Republic</option>
+                                                            <option value= 1067:TW 1068:>Taiwan, Province of China[a]</option>
+                                                            <option value= 1069:TJ 1070:>Tajikistan</option>
+                                                            <option value= 1071:TZ 1072:>Tanzania, United Republic of</option>
+                                                            <option value= 1073:TH 1074:>Thailand</option>
+                                                            <option value= 1075:TL 1076:>Timor-Leste</option>
+                                                            <option value= 1077:TG 1078:>Togo</option>
+                                                            <option value= 1079:TK 1080:>Tokelau</option>
+                                                            <option value= 1081:TO 1082:>Tonga</option>
+                                                            <option value= 1083:TT 1084:>Trinidad and Tobago</option>
+                                                            <option value= 1085:TN 1086:>Tunisia</option>
+                                                            <option value= 1087:TR 1088:>Turkey</option>
+                                                            <option value= 1089:TM 1090:>Turkmenistan</option>
+                                                            <option value= 1091:TC 1092:>Turks and Caicos Islands</option>
+                                                            <option value= 1093:TV 1094:>Tuvalu</option>
+                                                            <option value= 1095:UG 1096:>Uganda</option>
+                                                            <option value= 1097:UA 1098:>Ukraine</option>
+                                                            <option value= 1099:AE 1100:>United Arab Emirates</option>
+                                                            <option value= 1101:GB 1102:>United Kingdom of Great Britain and Northern Ireland</option>
+                                                            <option value= 1103:UM 1104:>United States Minor Outlying Islands</option>
+                                                            <option value= 1105:UY 1106:>Uruguay</option>
+                                                            <option value= 1107:UZ 1108:>Uzbekistan</option>
+                                                            <option value= 1109:VU 1110:>Vanuatu</option>
+                                                            <option value= 1111:VE 1112:>Venezuela (Bolivarian Republic of)</option>
+                                                            <option value= 1113:VN 1114:>Viet Nam</option>
+                                                            <option value= 1115:VG 1116:>Virgin Islands (British)</option>
+                                                            <option value= 1117:VI 1118:>Virgin Islands (U.S.)</option>
+                                                            <option value= 1119:WF 1120:>Wallis and Futuna</option>
+                                                            <option value= 1121:EH 1122:>Western Sahara</option>
+                                                            <option value= 1123:YE 1124:>Yemen</option>
+                                                            <option value= 1125:ZM 1126:>Zambia</option>
+                                                            <option value= 1127:ZW 1128:>Zimbabwe</option>
+                                                        </select>
+                                                        <div id= 1129:cardConnectCountryCodeMissingMessage 1130: class= 1131:invalid-msg d-none 1132:>Select a country</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class= 1133:row justify-content-center mt-2 1134:>
+                                                <div class= 1135:col-lg-11 1136:>
+                                                    <div class= 1137:total-wrap 1138:>
+                                                        <h2 class= 1139:total-donation extra-bold mb-1 1140:>$XX</h2>
+                                                        <h6 class= 1141:text-uppercase letter-spacing mb-4 1142:>Total Donation</h6>
+                                                    </div>
+                                                    <div id= 1143:cardConnectErrorMessage 1144: class= 1145:invalid-msg mb-3 d-none 1146:></div>
+                                                    <div class= 1147:form-group mb-0 1148:>
+                                                        <button id= 1149:cardConnectDonateNow 1150: type= 1151:submit 1152: class= 1153:btn btn-secondary btn-block btn-lg mb-0 1154:><img class= 1155:loading d-none 1156: src= 1157:images/loading.svg 1158:>Complete Donation</button>
+                                                        <p class= 1159:small text-muted mt-3 mb-0 text-center 1160:>This site is protected by reCAPTCHA and the Google <a target= 1161:blank 1162: href= 1163:https://policies.google.com/privacy 1164:>Privacy Policy</a> and <a target= 1165:blank 1166: href= 1167:https://policies.google.com/terms 1168:>Terms of Service</a> apply.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </form>
+                                    </div>
+                                </div>
+
+
+                                <div class= 1169:tab-pane fade  1170: id= 1171:brainTreeTab 1172: role= 1173:tabpanel 1174: aria-labelledby= 1175:otherPaymentOptions-tab 1176:>
+                                    <div class= 1177:container py-3 1178:>
+                                        <div id= 1179:dropin-wrapper 1180:>
+                                            <div id= 1181:dropin-container 1182:></div>
+                                        </div>
+                                        
+                                        <div class= 1183:row justify-content-center mt-4 1184:>
+                                            <div class= 1185:col-lg-11 1186:>
+                                                <div class= 1187:total-wrap 1188:>
+                                                    <h2 class= 1189:total-donation extra-bold mb-1 1190:>$XX</h2>
+                                                    <h6 class= 1191:text-uppercase letter-spacing mb-4 1192:>Total Donation</h6>
+                                                </div>
+                                                <div id= 1193:brainTreeErrorMessage 1194: class= 1195:invalid-msg d-none 1196:></div>
+                                                <div class= 1197:form-group mb-0 1198:>
+                                                    <button id= 1199:brainTreeSelectCreditCard 1200: class= 1201:btn btn-secondary btn-block btn-lg d-none 1202: disabled><img class= 1203:loading d-none 1204: src= 1205:images/loading.svg 1206:>Complete Donation</button>
+                                                    <button id= 1207:brainTreeDonateNow 1208: class= 1209:btn btn-secondary btn-block btn-lg mb-0 d-none 1210:>
+                                                        <img class= 1211:loading d-none 1212: src= 1213:images/loading.svg 1214:>Complete Donation
+                                                    </button>
+                                                    <p class= 1215:small text-muted mt-3 mb-0 text-center 1216:>This site is protected by reCAPTCHA and the Google <a target= 1217:blank 1218: href= 1219:https://policies.google.com/privacy 1220:>Privacy Policy</a> and <a target= 1221:blank 1222: href= 1223:https://policies.google.com/terms 1224:>Terms of Service</a> apply.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                                <div id= 1225:v2recaptchaMessage 1226: class= 1227:invalid-msg d-none mb-4 1228:>Please complete the verification below to complete your donation</div>
+                                <div class= 1229:d-flex justify-content-center 1230:>
+                                    <div id= 1231:v2recaptcha 1232:></div>
+                                </div>
+                            
+                            <button id= 1233:prevPaymentCard 1234: type= 1235:button 1236: class= 1237:btn mt-3 text-muted 1238:>Previous</button>
+                        </div>
+                        <div class= 1239:card-footer 1240:>
+                            <p class= 1241:text-center small mb-0 text-uppercase 1242:><a target= 1243:_blank 1244: data-toggle= 1245:modal 1246: data-target= 1247:#FAQ 1248:>FAQ</a></p>
+                        </div>
+                    </div>
+                
+                    <div id= 1249:donationCompleteCard 1250: class= 1251:card shadow checkout d-none 1252:>
+                        <div class= 1253:card-header text-uppercase semi-bold 1254:>Thank You</div>
+                        <div class= 1255:card-body pb-2 1256:>
+                            <div class= 1257:text-center mb-2 1258:><img class= 1259:icon big 1260: src= 1261:images/icon-badge-tree-planter.svg 1262:></div>
+                            <h5 class= 1263:semi-bold text-center 1264:>You’re a good human and are now officially a member of #TeamTrees!</h5>
+                            <p class= 1265:text-center 1266:>Together, we can plant 20M trees by 2020, but we can’t do it without your help. If you know any other good humans, use your favorite social platforms and invite them to join the team too!</p>
+                            <div class= 1267:text-center mb-4 1268:>
+                                <div class='mb-2 sp_200629 sp_fb_large' ></div>
+                                <div class='sp_200860 sp_tw_large' ></div>
+                            </div>
+                        </div>
+                        <div class= 1269:card-footer 1270:>
+                            <p class= 1271:text-center small mb-0 text-uppercase 1272:><a target= 1273:_blank 1274: data-toggle= 1275:modal 1276: data-target= 1277:#FAQ 1278:>FAQ</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class= 1279:bg-gradient-white-to-grey 1280:>
+        <div class= 1281:container pb-5 1282:>
+            <div class= 1283:row 1284:>
+                <div class= 1285:col-lg-6 1286:>
+                    <div class= 1287:my-3 p-3 bg-white rounded shadow donor-feed 1288:>
+                        <div tabindex= 1289:0 1290: class= 1291:feed-helper 1292: data-toggle= 1293:popover 1294: data-placement= 1295:top 1296: data-trigger= 1297:focus 1298: title= 1299:Don't see your name? 1300: data-content= 1301:Donations made through YouTube won't display in this feed. Add your name to the feed by donating directly through teamtrees.org. 1302:>?</div>
+                        <ul class= 1303:nav nav-tabs 1304: id= 1305:donationFeedTab 1306: role= 1307:tablist 1308:>
+                            <li class= 1309:nav-item 1310:>
+                                <a class= 1311:nav-link active 1312: id= 1313:recent-donations-tab 1314: data-toggle= 1315:tab 1316: href= 1317:#recent-donations 1318: role= 1319:tab 1320: aria-controls= 1321:recent-donations 1322: aria-selected= 1323:true 1324:>Most Recent</a>
+                            </li>
+                            <li class= 1325:nav-item 1326:>
+                                <a class= 1327:nav-link 1328: id= 1329:top-donations-tab 1330: data-toggle= 1331:tab 1332: href= 1333:#top-donations 1334: role= 1335:tab 1336: aria-controls= 1337:top-donations 1338: aria-selected= 1339:false 1340:>Most Trees</a>
+                            </li>
+                        </ul>
+                        <div class= 1341:tab-content 1342: id= 1343:donationFeedContent 1344:>
+                            <div class= 1345:tab-pane fade show active 1346: id= 1347:recent-donations 1348: role= 1349:tabpanel 1350: aria-labelledby= 1351:recent-donations-tab 1352:>
+                                    <div class= 1353:media pt-3 1354:>
+                                            <img class= 1355:icon donor mr-2 1356: src= 1357:images/icon-badge-acorn-2.svg 1358:>
+
+                                        <p class= 1359:media-body pb-3 mb-0 border-bottom border-gray 1360:>
+                                            <strong class= 1361: 1362:>Patrick White</strong>
+                                               <span class= 1363:feed-tree-count badge badge-tier-1 text-uppercase 1364:>5 trees</span>
+                                            <span class= 1365:feed-datetime d-block text-muted small my-1 1366:>2019-10-26T10:51:36.9670000Z</span>
+                                            <span class= 1367:d-block medium mb-0 1368:>#ForTheEarth!</span>
+                                        </p>
+                                    </div>
+                                    <div class= 1369:media pt-3 1370:>
+                                            <img class= 1371:icon donor mr-2 1372: src= 1373:images/icon-badge-acorn-2.svg 1374:>
+
+                                        <p class= 1375:media-body pb-3 mb-0 border-bottom border-gray 1376:>
+                                            <strong class= 1377: 1378:>Anonymous</strong>
+                                               <span class= 1379:feed-tree-count badge badge-tier-1 text-uppercase 1380:>3 trees</span>
+                                            <span class= 1381:feed-datetime d-block text-muted small my-1 1382:>2019-10-26T10:51:36.8730000Z</span>
+                                            <span class= 1383:d-block medium mb-0 1384:>Assert our dominance on electricity</span>
+                                        </p>
+                                    </div>
+                                    <div class= 1385:media pt-3 1386:>
+                                            <img class= 1387:icon donor mr-2 1388: src= 1389:images/icon-badge-acorn-2.svg 1390:>
+
+                                        <p class= 1391:media-body pb-3 mb-0 border-bottom border-gray 1392:>
+                                            <strong class= 1393: 1394:>Mikko</strong>
+                                               <span class= 1395:feed-tree-count badge badge-tier-1 text-uppercase 1396:>5 trees</span>
+                                            <span class= 1397:feed-datetime d-block text-muted small my-1 1398:>2019-10-26T10:51:34.0370000Z</span>
+                                            <span class= 1399:d-block medium mb-0 1400:>All our wisdom is stored in the trees&#xA;&#xA;</span>
+                                        </p>
+                                    </div>
+                                    <div class= 1401:media pt-3 1402:>
+                                            <img class= 1403:icon donor mr-2 1404: src= 1405:images/icon-badge-acorn-2.svg 1406:>
+
+                                        <p class= 1407:media-body pb-3 mb-0 border-bottom border-gray 1408:>
+                                            <strong class= 1409: 1410:>That guy </strong>
+                                               <span class= 1411:feed-tree-count badge badge-tier-1 text-uppercase 1412:>1 tree</span>
+                                            <span class= 1413:feed-datetime d-block text-muted small my-1 1414:>2019-10-26T10:51:32.6700000Z</span>
+                                            <span class= 1415:d-block medium mb-0 1416:>This won&#x27;t do anything to help fight gw</span>
+                                        </p>
+                                    </div>
+                                    <div class= 1417:media pt-3 1418:>
+                                            <img class= 1419:icon donor mr-2 1420: src= 1421:images/icon-badge-acorn-2.svg 1422:>
+
+                                        <p class= 1423:media-body pb-3 mb-0 border-bottom border-gray 1424:>
+                                            <strong class= 1425: 1426:>Kelsey </strong>
+                                               <span class= 1427:feed-tree-count badge badge-tier-1 text-uppercase 1428:>5 trees</span>
+                                            <span class= 1429:feed-datetime d-block text-muted small my-1 1430:>2019-10-26T10:51:31.9470000Z</span>
+                                            <span class= 1431:d-block medium mb-0 1432:></span>
+                                        </p>
+                                    </div>
+                                    <div class= 1433:media pt-3 1434:>
+                                            <img class= 1435:icon donor mr-2 1436: src= 1437:images/icon-badge-leaf-2.svg 1438:>
+
+                                        <p class= 1439:media-body pb-3 mb-0 border-bottom border-gray 1440:>
+                                            <strong class= 1441: 1442:>EzTree</strong>
+                                               <span class= 1443:feed-tree-count badge badge-tier-2 text-uppercase 1444:>20 trees</span>
+                                            <span class= 1445:feed-datetime d-block text-muted small my-1 1446:>2019-10-26T10:51:31.7570000Z</span>
+                                            <span class= 1447:d-block medium mb-0 1448:>Let&#x27;s plant those trees gamers</span>
+                                        </p>
+                                    </div>
+                                    <div class= 1449:media pt-3 1450:>
+                                            <img class= 1451:icon donor mr-2 1452: src= 1453:images/icon-badge-acorn-2.svg 1454:>
+
+                                        <p class= 1455:media-body pb-3 mb-0 border-bottom border-gray 1456:>
+                                            <strong class= 1457: 1458:>Asliddin</strong>
+                                               <span class= 1459:feed-tree-count badge badge-tier-1 text-uppercase 1460:>5 trees</span>
+                                            <span class= 1461:feed-datetime d-block text-muted small my-1 1462:>2019-10-26T10:51:30.5900000Z</span>
+                                            <span class= 1463:d-block medium mb-0 1464:>TRU</span>
+                                        </p>
+                                    </div>
+                                    <div class= 1465:media pt-3 1466:>
+                                            <img class= 1467:icon donor mr-2 1468: src= 1469:images/icon-badge-branch-2.svg 1470:>
+
+                                        <p class= 1471:media-body pb-3 mb-0 border-bottom border-gray 1472:>
+                                            <strong class= 1473: 1474:>Anonymous</strong>
+                                                <span class= 1475:feed-tree-count badge badge-tier-3 text-uppercase 1476:>50 trees</span>
+                                            <span class= 1477:feed-datetime d-block text-muted small my-1 1478:>2019-10-26T10:51:30.1330000Z</span>
+                                            <span class= 1479:d-block medium mb-0 1480:>For my daughter Freya </span>
+                                        </p>
+                                    </div>
+                                    <div class= 1481:media pt-3 1482:>
+                                            <img class= 1483:icon donor mr-2 1484: src= 1485:images/icon-badge-branch-2.svg 1486:>
+
+                                        <p class= 1487:media-body pb-3 mb-0 border-bottom border-gray 1488:>
+                                            <strong class= 1489: 1490:>Jon</strong>
+                                                <span class= 1491:feed-tree-count badge badge-tier-3 text-uppercase 1492:>50 trees</span>
+                                            <span class= 1493:feed-datetime d-block text-muted small my-1 1494:>2019-10-26T10:51:29.6200000Z</span>
+                                            <span class= 1495:d-block medium mb-0 1496:></span>
+                                        </p>
+                                    </div>
+                                    <div class= 1497:media pt-3 1498:>
+                                            <img class= 1499:icon donor mr-2 1500: src= 1501:images/icon-badge-acorn-2.svg 1502:>
+
+                                        <p class= 1503:media-body pb-3 mb-0 border-bottom border-gray 1504:>
+                                            <strong class= 1505: 1506:>Anonymous</strong>
+                                               <span class= 1507:feed-tree-count badge badge-tier-1 text-uppercase 1508:>5 trees</span>
+                                            <span class= 1509:feed-datetime d-block text-muted small my-1 1510:>2019-10-26T10:51:25.7300000Z</span>
+                                            <span class= 1511:d-block medium mb-0 1512:></span>
+                                        </p>
+                                    </div>
+                                    <div class= 1513:media pt-3 1514:>
+                                            <img class= 1515:icon donor mr-2 1516: src= 1517:images/icon-badge-acorn-2.svg 1518:>
+
+                                        <p class= 1519:media-body pb-3 mb-0 border-bottom border-gray 1520:>
+                                            <strong class= 1521: 1522:>Nikita</strong>
+                                               <span class= 1523:feed-tree-count badge badge-tier-1 text-uppercase 1524:>1 tree</span>
+                                            <span class= 1525:feed-datetime d-block text-muted small my-1 1526:>2019-10-26T10:51:25.0170000Z</span>
+                                            <span class= 1527:d-block medium mb-0 1528:></span>
+                                        </p>
+                                    </div>
+                                    <div class= 1529:media pt-3 1530:>
+                                            <img class= 1531:icon donor mr-2 1532: src= 1533:images/icon-badge-acorn-2.svg 1534:>
+
+                                        <p class= 1535:media-body pb-3 mb-0 border-bottom border-gray 1536:>
+                                            <strong class= 1537: 1538:>imseanco</strong>
+                                               <span class= 1539:feed-tree-count badge badge-tier-1 text-uppercase 1540:>10 trees</span>
+                                            <span class= 1541:feed-datetime d-block text-muted small my-1 1542:>2019-10-26T10:51:22.5400000Z</span>
+                                            <span class= 1543:d-block medium mb-0 1544:></span>
+                                        </p>
+                                    </div>
+                                    <div class= 1545:media pt-3 1546:>
+                                            <img class= 1547:icon donor mr-2 1548: src= 1549:images/icon-badge-acorn-2.svg 1550:>
+
+                                        <p class= 1551:media-body pb-3 mb-0 border-bottom border-gray 1552:>
+                                            <strong class= 1553: 1554:>Anonymous</strong>
+                                               <span class= 1555:feed-tree-count badge badge-tier-1 text-uppercase 1556:>18 trees</span>
+                                            <span class= 1557:feed-datetime d-block text-muted small my-1 1558:>2019-10-26T10:51:21.5430000Z</span>
+                                            <span class= 1559:d-block medium mb-0 1560:></span>
+                                        </p>
+                                    </div>
+                                    <div class= 1561:media pt-3 1562:>
+                                            <img class= 1563:icon donor mr-2 1564: src= 1565:images/icon-badge-grove-2.svg 1566:>
+
+                                        <p class= 1567:media-body pb-3 mb-0 border-bottom border-gray 1568:>
+                                            <strong class= 1569: 1570:>Sam Watkins</strong>
+                                                <span class= 1571:feed-tree-count badge badge-tier-4 text-uppercase 1572:>200 trees</span>
+                                            <span class= 1573:feed-datetime d-block text-muted small my-1 1574:>2019-10-26T10:51:21.0830000Z</span>
+                                            <span class= 1575:d-block medium mb-0 1576:>Great fundraiser and I love trees!</span>
+                                        </p>
+                                    </div>
+                                    <div class= 1577:media pt-3 1578:>
+                                            <img class= 1579:icon donor mr-2 1580: src= 1581:images/icon-badge-branch-2.svg 1582:>
+
+                                        <p class= 1583:media-body pb-3 mb-0 border-bottom border-gray 1584:>
+                                            <strong class= 1585: 1586:>Chu</strong>
+                                                <span class= 1587:feed-tree-count badge badge-tier-3 text-uppercase 1588:>50 trees</span>
+                                            <span class= 1589:feed-datetime d-block text-muted small my-1 1590:>2019-10-26T10:51:19.8030000Z</span>
+                                            <span class= 1591:d-block medium mb-0 1592:>More trees</span>
+                                        </p>
+                                    </div>
+                                    <div class= 1593:media pt-3 1594:>
+                                            <img class= 1595:icon donor mr-2 1596: src= 1597:images/icon-badge-acorn-2.svg 1598:>
+
+                                        <p class= 1599:media-body pb-3 mb-0 border-bottom border-gray 1600:>
+                                            <strong class= 1601: 1602:>Anonymous</strong>
+                                               <span class= 1603:feed-tree-count badge badge-tier-1 text-uppercase 1604:>5 trees</span>
+                                            <span class= 1605:feed-datetime d-block text-muted small my-1 1606:>2019-10-26T10:51:18.2830000Z</span>
+                                            <span class= 1607:d-block medium mb-0 1608:></span>
+                                        </p>
+                                    </div>
+                                    <div class= 1609:media pt-3 1610:>
+                                            <img class= 1611:icon donor mr-2 1612: src= 1613:images/icon-badge-acorn-2.svg 1614:>
+
+                                        <p class= 1615:media-body pb-3 mb-0 border-bottom border-gray 1616:>
+                                            <strong class= 1617: 1618:>Aidan Coetzer</strong>
+                                               <span class= 1619:feed-tree-count badge badge-tier-1 text-uppercase 1620:>5 trees</span>
+                                            <span class= 1621:feed-datetime d-block text-muted small my-1 1622:>2019-10-26T10:51:18.1570000Z</span>
+                                            <span class= 1623:d-block medium mb-0 1624:>Goodluck &lt;3</span>
+                                        </p>
+                                    </div>
+                                    <div class= 1625:media pt-3 1626:>
+                                            <img class= 1627:icon donor mr-2 1628: src= 1629:images/icon-badge-acorn-2.svg 1630:>
+
+                                        <p class= 1631:media-body pb-3 mb-0 border-bottom border-gray 1632:>
+                                            <strong class= 1633: 1634:>Giacomo</strong>
+                                               <span class= 1635:feed-tree-count badge badge-tier-1 text-uppercase 1636:>1 tree</span>
+                                            <span class= 1637:feed-datetime d-block text-muted small my-1 1638:>2019-10-26T10:51:17.3870000Z</span>
+                                            <span class= 1639:d-block medium mb-0 1640:></span>
+                                        </p>
+                                    </div>
+                                    <div class= 1641:media pt-3 1642:>
+                                            <img class= 1643:icon donor mr-2 1644: src= 1645:images/icon-badge-acorn-2.svg 1646:>
+
+                                        <p class= 1647:media-body pb-3 mb-0 border-bottom border-gray 1648:>
+                                            <strong class= 1649: 1650:>Kry&#x161;tof Ku&#x10D;era</strong>
+                                               <span class= 1651:feed-tree-count badge badge-tier-1 text-uppercase 1652:>2 trees</span>
+                                            <span class= 1653:feed-datetime d-block text-muted small my-1 1654:>2019-10-26T10:51:15.8770000Z</span>
+                                            <span class= 1655:d-block medium mb-0 1656:></span>
+                                        </p>
+                                    </div>
+                                    <div class= 1657:media pt-3 1658:>
+                                            <img class= 1659:icon donor mr-2 1660: src= 1661:images/icon-badge-acorn-2.svg 1662:>
+
+                                        <p class= 1663:media-body pb-3 mb-0 border-bottom border-gray 1664:>
+                                            <strong class= 1665: 1666:>poromise</strong>
+                                               <span class= 1667:feed-tree-count badge badge-tier-1 text-uppercase 1668:>10 trees</span>
+                                            <span class= 1669:feed-datetime d-block text-muted small my-1 1670:>2019-10-26T10:51:13.4200000Z</span>
+                                            <span class= 1671:d-block medium mb-0 1672:>let&#x27;s get this bread</span>
+                                        </p>
+                                    </div>
+                                    <div class= 1673:media pt-3 1674:>
+                                            <img class= 1675:icon donor mr-2 1676: src= 1677:images/icon-badge-acorn-2.svg 1678:>
+
+                                        <p class= 1679:media-body pb-3 mb-0 border-bottom border-gray 1680:>
+                                            <strong class= 1681: 1682:>Anonymous</strong>
+                                               <span class= 1683:feed-tree-count badge badge-tier-1 text-uppercase 1684:>5 trees</span>
+                                            <span class= 1685:feed-datetime d-block text-muted small my-1 1686:>2019-10-26T10:51:07.7100000Z</span>
+                                            <span class= 1687:d-block medium mb-0 1688:>none</span>
+                                        </p>
+                                    </div>
+                                    <div class= 1689:media pt-3 1690:>
+                                            <img class= 1691:icon donor mr-2 1692: src= 1693:images/icon-badge-leaf-2.svg 1694:>
+
+                                        <p class= 1695:media-body pb-3 mb-0 border-bottom border-gray 1696:>
+                                            <strong class= 1697: 1698:>Anonymous</strong>
+                                               <span class= 1699:feed-tree-count badge badge-tier-2 text-uppercase 1700:>20 trees</span>
+                                            <span class= 1701:feed-datetime d-block text-muted small my-1 1702:>2019-10-26T10:51:05.5900000Z</span>
+                                            <span class= 1703:d-block medium mb-0 1704:></span>
+                                        </p>
+                                    </div>
+                                    <div class= 1705:media pt-3 1706:>
+                                            <img class= 1707:icon donor mr-2 1708: src= 1709:images/icon-badge-acorn-2.svg 1710:>
+
+                                        <p class= 1711:media-body pb-3 mb-0 border-bottom border-gray 1712:>
+                                            <strong class= 1713: 1714:>Benedict Bremser</strong>
+                                               <span class= 1715:feed-tree-count badge badge-tier-1 text-uppercase 1716:>10 trees</span>
+                                            <span class= 1717:feed-datetime d-block text-muted small my-1 1718:>2019-10-26T10:51:05.5230000Z</span>
+                                            <span class= 1719:d-block medium mb-0 1720:></span>
+                                        </p>
+                                    </div>
+                                    <div class= 1721:media pt-3 1722:>
+                                            <img class= 1723:icon donor mr-2 1724: src= 1725:images/icon-badge-acorn-2.svg 1726:>
+
+                                        <p class= 1727:media-body pb-3 mb-0 border-bottom border-gray 1728:>
+                                            <strong class= 1729: 1730:>Magic mojo</strong>
+                                               <span class= 1731:feed-tree-count badge badge-tier-1 text-uppercase 1732:>5 trees</span>
+                                            <span class= 1733:feed-datetime d-block text-muted small my-1 1734:>2019-10-26T10:51:04.5630000Z</span>
+                                            <span class= 1735:d-block medium mb-0 1736:>Save the earth</span>
+                                        </p>
+                                    </div>
+                            </div>
+
+                            <div class= 1737:tab-pane fade 1738: id= 1739:top-donations 1740: role= 1741:tabpanel 1742: aria-labelledby= 1743:top-donations-tab 1744:>
+                                    <div class= 1745:media pt-3 1746: data-trees= 1747:100001 1748:>
+											<img class= 1749:icon donor mr-2 1750: src= 1751:images/icon-badge-earth.svg 1752:>
+
+                                    <p class= 1753:media-body pb-3 mb-0 border-bottom border-gray 1754:>
+                                        <strong class= 1755: 1756:>Alan Walker</strong>
+                                            <span class= 1757:feed-tree-count badge badge-tier-6 text-uppercase 1758:>100,001 trees</span>
+                                        <span class= 1759:feed-datetime d-block text-muted small my-1 1760:>2019-10-26T08:49:18.2630000Z</span>
+                                        <span class= 1761:d-block medium mb-0 1762:>I want to plant one of the trees!</span>
+                                    </p>
+                                    </div>
+                                    <div class= 1763:media pt-3 1764: data-trees= 1765:100000 1766:>
+											<img class= 1767:icon donor mr-2 1768: src= 1769:images/icon-badge-earth.svg 1770:>
+
+                                    <p class= 1771:media-body pb-3 mb-0 border-bottom border-gray 1772:>
+                                        <strong class= 1773: 1774:>MrBeast</strong>
+                                            <span class= 1775:feed-tree-count badge badge-tier-6 text-uppercase 1776:>100,000 trees</span>
+                                        <span class= 1777:feed-datetime d-block text-muted small my-1 1778:>2019-10-25T19:00:00.0000000Z</span>
+                                        <span class= 1779:d-block medium mb-0 1780:>I dare you to take this space from me :)</span>
+                                    </p>
+                                    </div>
+                                    <div class= 1781:media pt-3 1782: data-trees= 1783:50000 1784:>
+											<img class= 1785:icon donor mr-2 1786: src= 1787:images/icon-badge-earth.svg 1788:>
+
+                                    <p class= 1789:media-body pb-3 mb-0 border-bottom border-gray 1790:>
+                                        <strong class= 1791: 1792:>Mark Rober</strong>
+                                            <span class= 1793:feed-tree-count badge badge-tier-6 text-uppercase 1794:>50,000 trees</span>
+                                        <span class= 1795:feed-datetime d-block text-muted small my-1 1796:>2019-10-25T19:00:00.0000000Z</span>
+                                        <span class= 1797:d-block medium mb-0 1798:>So stoked to be part of this! #TeamTrees</span>
+                                    </p>
+                                    </div>
+                                    <div class= 1799:media pt-3 1800: data-trees= 1801:50000 1802:>
+											<img class= 1803:icon donor mr-2 1804: src= 1805:images/icon-badge-earth.svg 1806:>
+
+                                    <p class= 1807:media-body pb-3 mb-0 border-bottom border-gray 1808:>
+                                        <strong class= 1809: 1810:>Jeffree Star</strong>
+                                            <span class= 1811:feed-tree-count badge badge-tier-6 text-uppercase 1812:>50,000 trees</span>
+                                        <span class= 1813:feed-datetime d-block text-muted small my-1 1814:>2019-10-26T00:31:47.4830000Z</span>
+                                        <span class= 1815:d-block medium mb-0 1816:>Let&#x27;s all help change the world.</span>
+                                    </p>
+                                    </div>
+                                    <div class= 1817:media pt-3 1818: data-trees= 1819:15000 1820:>
+											<img class= 1821:icon donor mr-2 1822: src= 1823:images/icon-badge-earth.svg 1824:>
+
+                                    <p class= 1825:media-body pb-3 mb-0 border-bottom border-gray 1826:>
+                                        <strong class= 1827: 1828:>Lachlan</strong>
+                                            <span class= 1829:feed-tree-count badge badge-tier-6 text-uppercase 1830:>15,000 trees</span>
+                                        <span class= 1831:feed-datetime d-block text-muted small my-1 1832:>2019-10-26T08:18:05.4300000Z</span>
+                                        <span class= 1833:d-block medium mb-0 1834:>Deforestation is unepic</span>
+                                    </p>
+                                    </div>
+                                    <div class= 1835:media pt-3 1836: data-trees= 1837:10101 1838:>
+											<img class= 1839:icon donor mr-2 1840: src= 1841:images/icon-badge-earth.svg 1842:>
+
+                                    <p class= 1843:media-body pb-3 mb-0 border-bottom border-gray 1844:>
+                                        <strong class= 1845: 1846:>SPY NINJAS</strong>
+                                            <span class= 1847:feed-tree-count badge badge-tier-6 text-uppercase 1848:>10,101 trees</span>
+                                        <span class= 1849:feed-datetime d-block text-muted small my-1 1850:>2019-10-25T20:01:52.1470000Z</span>
+                                        <span class= 1851:d-block medium mb-0 1852:>Love Trees - Chad Wild Clay &amp; Vy Qwaint</span>
+                                    </p>
+                                    </div>
+                                    <div class= 1853:media pt-3 1854: data-trees= 1855:10101 1856:>
+											<img class= 1857:icon donor mr-2 1858: src= 1859:images/icon-badge-earth.svg 1860:>
+
+                                    <p class= 1861:media-body pb-3 mb-0 border-bottom border-gray 1862:>
+                                        <strong class= 1863: 1864:>Adam B.</strong>
+                                            <span class= 1865:feed-tree-count badge badge-tier-6 text-uppercase 1866:>10,101 trees</span>
+                                        <span class= 1867:feed-datetime d-block text-muted small my-1 1868:>2019-10-25T22:07:21.4200000Z</span>
+                                        <span class= 1869:d-block medium mb-0 1870:>BASS</span>
+                                    </p>
+                                    </div>
+                                    <div class= 1871:media pt-3 1872: data-trees= 1873:10009 1874:>
+											<img class= 1875:icon donor mr-2 1876: src= 1877:images/icon-badge-earth.svg 1878:>
+
+                                    <p class= 1879:media-body pb-3 mb-0 border-bottom border-gray 1880:>
+                                        <strong class= 1881: 1882:>Guava Juice</strong>
+                                            <span class= 1883:feed-tree-count badge badge-tier-6 text-uppercase 1884:>10,009 trees</span>
+                                        <span class= 1885:feed-datetime d-block text-muted small my-1 1886:>2019-10-25T19:50:41.8930000Z</span>
+                                        <span class= 1887:d-block medium mb-0 1888:>Oxygen is the best!</span>
+                                    </p>
+                                    </div>
+                                    <div class= 1889:media pt-3 1890: data-trees= 1891:10009 1892:>
+											<img class= 1893:icon donor mr-2 1894: src= 1895:images/icon-badge-earth.svg 1896:>
+
+                                    <p class= 1897:media-body pb-3 mb-0 border-bottom border-gray 1898:>
+                                        <strong class= 1899: 1900:>Jotaro Kujo</strong>
+                                            <span class= 1901:feed-tree-count badge badge-tier-6 text-uppercase 1902:>10,009 trees</span>
+                                        <span class= 1903:feed-datetime d-block text-muted small my-1 1904:>2019-10-26T02:37:21.5600000Z</span>
+                                        <span class= 1905:d-block medium mb-0 1906:>yare yare daze...</span>
+                                    </p>
+                                    </div>
+                                    <div class= 1907:media pt-3 1908: data-trees= 1909:10000 1910:>
+											<img class= 1911:icon donor mr-2 1912: src= 1913:images/icon-badge-earth.svg 1914:>
+
+                                    <p class= 1915:media-body pb-3 mb-0 border-bottom border-gray 1916:>
+                                        <strong class= 1917: 1918:>UNSPEAKABLE</strong>
+                                            <span class= 1919:feed-tree-count badge badge-tier-6 text-uppercase 1920:>10,000 trees</span>
+                                        <span class= 1921:feed-datetime d-block text-muted small my-1 1922:>2019-10-25T17:45:32.6600000Z</span>
+                                        <span class= 1923:d-block medium mb-0 1924:>Let&#x2019;s plant these trees!! #TEAMTREES</span>
+                                    </p>
+                                    </div>
+                                    <div class= 1925:media pt-3 1926: data-trees= 1927:10000 1928:>
+											<img class= 1929:icon donor mr-2 1930: src= 1931:images/icon-badge-earth.svg 1932:>
+
+                                    <p class= 1933:media-body pb-3 mb-0 border-bottom border-gray 1934:>
+                                        <strong class= 1935: 1936:>Discovery</strong>
+                                            <span class= 1937:feed-tree-count badge badge-tier-6 text-uppercase 1938:>10,000 trees</span>
+                                        <span class= 1939:feed-datetime d-block text-muted small my-1 1940:>2019-10-25T18:48:09.9970000Z</span>
+                                        <span class= 1941:d-block medium mb-0 1942:>Let&#x2019;s do this! #TeamTrees</span>
+                                    </p>
+                                    </div>
+                                    <div class= 1943:media pt-3 1944: data-trees= 1945:10000 1946:>
+											<img class= 1947:icon donor mr-2 1948: src= 1949:images/icon-badge-earth.svg 1950:>
+
+                                    <p class= 1951:media-body pb-3 mb-0 border-bottom border-gray 1952:>
+                                        <strong class= 1953: 1954:>AZZYLAND</strong>
+                                            <span class= 1955:feed-tree-count badge badge-tier-6 text-uppercase 1956:>10,000 trees</span>
+                                        <span class= 1957:feed-datetime d-block text-muted small my-1 1958:>2019-10-25T19:04:11.4400000Z</span>
+                                        <span class= 1959:d-block medium mb-0 1960:>lets go TEAM TREES!</span>
+                                    </p>
+                                    </div>
+                                    <div class= 1961:media pt-3 1962: data-trees= 1963:10000 1964:>
+											<img class= 1965:icon donor mr-2 1966: src= 1967:images/icon-badge-earth.svg 1968:>
+
+                                    <p class= 1969:media-body pb-3 mb-0 border-bottom border-gray 1970:>
+                                        <strong class= 1971: 1972:>LazarBeam</strong>
+                                            <span class= 1973:feed-tree-count badge badge-tier-6 text-uppercase 1974:>10,000 trees</span>
+                                        <span class= 1975:feed-datetime d-block text-muted small my-1 1976:>2019-10-25T21:31:25.6270000Z</span>
+                                        <span class= 1977:d-block medium mb-0 1978:>yeet </span>
+                                    </p>
+                                    </div>
+                                    <div class= 1979:media pt-3 1980: data-trees= 1981:10000 1982:>
+											<img class= 1983:icon donor mr-2 1984: src= 1985:images/icon-badge-earth.svg 1986:>
+
+                                    <p class= 1987:media-body pb-3 mb-0 border-bottom border-gray 1988:>
+                                        <strong class= 1989: 1990:>Vikkstar123</strong>
+                                            <span class= 1991:feed-tree-count badge badge-tier-6 text-uppercase 1992:>10,000 trees</span>
+                                        <span class= 1993:feed-datetime d-block text-muted small my-1 1994:>2019-10-25T21:44:24.7300000Z</span>
+                                        <span class= 1995:d-block medium mb-0 1996:>RISE &amp; GRIND LETS PLANT THOSE TREES</span>
+                                    </p>
+                                    </div>
+                                    <div class= 1997:media pt-3 1998: data-trees= 1999:10000 2000:>
+											<img class= 2001:icon donor mr-2 2002: src= 2003:images/icon-badge-earth.svg 2004:>
+
+                                    <p class= 2005:media-body pb-3 mb-0 border-bottom border-gray 2006:>
+                                        <strong class= 2007: 2008:>notch</strong>
+                                            <span class= 2009:feed-tree-count badge badge-tier-6 text-uppercase 2010:>10,000 trees</span>
+                                        <span class= 2011:feed-datetime d-block text-muted small my-1 2012:>2019-10-25T22:00:17.5500000Z</span>
+                                        <span class= 2013:d-block medium mb-0 2014:></span>
+                                    </p>
+                                    </div>
+                                    <div class= 2015:media pt-3 2016: data-trees= 2017:10000 2018:>
+											<img class= 2019:icon donor mr-2 2020: src= 2021:images/icon-badge-earth.svg 2022:>
+
+                                    <p class= 2023:media-body pb-3 mb-0 border-bottom border-gray 2024:>
+                                        <strong class= 2025: 2026:>Linus Tech Tips</strong>
+                                            <span class= 2027:feed-tree-count badge badge-tier-6 text-uppercase 2028:>10,000 trees</span>
+                                        <span class= 2029:feed-datetime d-block text-muted small my-1 2030:>2019-10-26T00:28:27.8930000Z</span>
+                                        <span class= 2031:d-block medium mb-0 2032:>Let&#x27;s plant some trees!</span>
+                                    </p>
+                                    </div>
+                                    <div class= 2033:media pt-3 2034: data-trees= 2035:10000 2036:>
+											<img class= 2037:icon donor mr-2 2038: src= 2039:images/icon-badge-earth.svg 2040:>
+
+                                    <p class= 2041:media-body pb-3 mb-0 border-bottom border-gray 2042:>
+                                        <strong class= 2043: 2044:>Emma</strong>
+                                            <span class= 2045:feed-tree-count badge badge-tier-6 text-uppercase 2046:>10,000 trees</span>
+                                        <span class= 2047:feed-datetime d-block text-muted small my-1 2048:>2019-10-26T01:54:25.5400000Z</span>
+                                        <span class= 2049:d-block medium mb-0 2050:></span>
+                                    </p>
+                                    </div>
+                                    <div class= 2051:media pt-3 2052: data-trees= 2053:10000 2054:>
+											<img class= 2055:icon donor mr-2 2056: src= 2057:images/icon-badge-earth.svg 2058:>
+
+                                    <p class= 2059:media-body pb-3 mb-0 border-bottom border-gray 2060:>
+                                        <strong class= 2061: 2062:>Anonymous</strong>
+                                            <span class= 2063:feed-tree-count badge badge-tier-6 text-uppercase 2064:>10,000 trees</span>
+                                        <span class= 2065:feed-datetime d-block text-muted small my-1 2066:>2019-10-26T02:29:34.9430000Z</span>
+                                        <span class= 2067:d-block medium mb-0 2068:>Trees r gud</span>
+                                    </p>
+                                    </div>
+                                    <div class= 2069:media pt-3 2070: data-trees= 2071:10000 2072:>
+											<img class= 2073:icon donor mr-2 2074: src= 2075:images/icon-badge-earth.svg 2076:>
+
+                                    <p class= 2077:media-body pb-3 mb-0 border-bottom border-gray 2078:>
+                                        <strong class= 2079: 2080:>woletrap</strong>
+                                            <span class= 2081:feed-tree-count badge badge-tier-6 text-uppercase 2082:>10,000 trees</span>
+                                        <span class= 2083:feed-datetime d-block text-muted small my-1 2084:>2019-10-26T04:03:34.8770000Z</span>
+                                        <span class= 2085:d-block medium mb-0 2086:>#TeamTrees</span>
+                                    </p>
+                                    </div>
+                                    <div class= 2087:media pt-3 2088: data-trees= 2089:10000 2090:>
+											<img class= 2091:icon donor mr-2 2092: src= 2093:images/icon-badge-earth.svg 2094:>
+
+                                    <p class= 2095:media-body pb-3 mb-0 border-bottom border-gray 2096:>
+                                        <strong class= 2097: 2098:>Anonymous</strong>
+                                            <span class= 2099:feed-tree-count badge badge-tier-6 text-uppercase 2100:>10,000 trees</span>
+                                        <span class= 2101:feed-datetime d-block text-muted small my-1 2102:>2019-10-26T05:40:22.3530000Z</span>
+                                        <span class= 2103:d-block medium mb-0 2104:>Lets go we can do it</span>
+                                    </p>
+                                    </div>
+                                    <div class= 2105:media pt-3 2106: data-trees= 2107:5100 2108:>
+											<img class= 2109:icon donor mr-2 2110: src= 2111:images/icon-badge-earth.svg 2112:>
+
+                                    <p class= 2113:media-body pb-3 mb-0 border-bottom border-gray 2114:>
+                                        <strong class= 2115: 2116:>TSM</strong>
+                                            <span class= 2117:feed-tree-count badge badge-tier-6 text-uppercase 2118:>5,100 trees</span>
+                                        <span class= 2119:feed-datetime d-block text-muted small my-1 2120:>2019-10-26T05:07:48.0630000Z</span>
+                                        <span class= 2121:d-block medium mb-0 2122:>Save our Maokais! #TeamTrees</span>
+                                    </p>
+                                    </div>
+                                    <div class= 2123:media pt-3 2124: data-trees= 2125:5006 2126:>
+											<img class= 2127:icon donor mr-2 2128: src= 2129:images/icon-badge-earth.svg 2130:>
+
+                                    <p class= 2131:media-body pb-3 mb-0 border-bottom border-gray 2132:>
+                                        <strong class= 2133: 2134:>Nano (r/nanocurrency)</strong>
+                                            <span class= 2135:feed-tree-count badge badge-tier-6 text-uppercase 2136:>5,006 trees</span>
+                                        <span class= 2137:feed-datetime d-block text-muted small my-1 2138:>2019-10-25T21:38:03.1270000Z</span>
+                                        <span class= 2139:d-block medium mb-0 2140:>We also love trees! #NanoisGreen</span>
+                                    </p>
+                                    </div>
+                                    <div class= 2141:media pt-3 2142: data-trees= 2143:5005 2144:>
+											<img class= 2145:icon donor mr-2 2146: src= 2147:images/icon-badge-earth.svg 2148:>
+
+                                    <p class= 2149:media-body pb-3 mb-0 border-bottom border-gray 2150:>
+                                        <strong class= 2151: 2152:>Night Media</strong>
+                                            <span class= 2153:feed-tree-count badge badge-tier-6 text-uppercase 2154:>5,005 trees</span>
+                                        <span class= 2155:feed-datetime d-block text-muted small my-1 2156:>2019-10-25T18:51:08.4770000Z</span>
+                                        <span class= 2157:d-block medium mb-0 2158:>We love trees </span>
+                                    </p>
+                                    </div>
+                                    <div class= 2159:media pt-3 2160: data-trees= 2161:5002 2162:>
+											<img class= 2163:icon donor mr-2 2164: src= 2165:images/icon-badge-earth.svg 2166:>
+
+                                    <p class= 2167:media-body pb-3 mb-0 border-bottom border-gray 2168:>
+                                        <strong class= 2169: 2170:>TheQuartering</strong>
+                                            <span class= 2171:feed-tree-count badge badge-tier-6 text-uppercase 2172:>5,002 trees</span>
+                                        <span class= 2173:feed-datetime d-block text-muted small my-1 2174:>2019-10-25T17:00:14.4930000Z</span>
+                                        <span class= 2175:d-block medium mb-0 2176:>To Save My Beard!</span>
+                                    </p>
+                                    </div>
+                            </div>
+                        </div>
+                        <div>
+                            <a tabindex= 2177:0 2178: class= 2179:mt-3 see-all text-right medium d-block 2180: data-toggle= 2181:popover 2182: data-placement= 2183:right 2184: data-trigger= 2185:focus 2186: data-content= 2187:Coming Soon 2188:>See All</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class= 2189:col-lg-6 2190:>
+                    <div class= 2191:my-3 p-3 bg-white rounded shadow 2192:>
+                        <div class= 2193:border-bottom border-gray pb-2 2194:>
+                            <h5 class= 2195:mb-0 text-uppercase 2196:>#TeamTrees Social</h5>
+                            <!-- <a href= 2197: 2198: class= 2199:btn btn-primary btn-merch 2200:>Shop Merch</a> -->
+                        </div>
+                        <div class= 2201:social-wrap 2202:>
+                            <div class= 2203:tintup 2204: data-id= 2205:teamtrees_1 2206: data-count= 2207:12 2208: data-expand= 2209:true 2210: data-clickformore= 2211:true 2212: data-personalization-id= 2213:1033159 2214: style= 2215:height:2385px;width:100%; 2216:></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class= 2217:bg-dark-blue 2218:>
+        <div class= 2219:container py-4 2220:>
+            <p class= 2221:text-center small mb-0 text-uppercase text-light 2222:>
+                <a target= 2223:_blank 2224: data-toggle= 2225:modal 2226: data-target= 2227:#FAQ 2228:>FAQ</a>
+                &nbsp;•&nbsp;
+                <script type= 2229:text/javascript 2230:>
+                    //<![CDATA[
+                    <!--
+                    var x= 2231:function f(x){var i,o=\ 2232:\ 2233:,ol=x.length,l=ol;while(x.charCodeAt(l/13)! 2234: +
+                     2235:=101){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return  2236: +
+                     2237:o.substr(0,ol);}f(\ 2238:)15,\\\ 2239: *\\\ 2240:\\\\15(t;/aD0{mlxeeJ6%Zbvl,re330\\\\710\\ 2241: +
+                     2242:\\010\\\\620\\\\330\\\\430\\\\410\\\\7130\\\\320\\\\230\\\\230\\\\P-Mn\\\\2 2243: +
+                     2244:00\\\\130\\\\500\\\\730\\\\JK4000\\\\420\\\\n\\\\J020\\\\700\\\\400\\\\220\\ 2245:+
+                     2246:\\+3<9/230\\\\6>9?o;'>81\\\ 2247:\\\\l120\\\\q-/; g'yfk,-%KWOK520\\\\NW]ZCV[W\\\ 2248: 2249:+
+                     2250:(f};o nruter};))++y(^)i(tAedoCrahc.x(edoCrahCmorf.gnirtS=+o;721=%y{)++i;l<i 2251: +
+                     2252:;0=i(rof;htgnel.x=l,\\\ 2253:\\\ 2254:=o,i rav{)y,x(f noitcnuf\ 2255:) 2256:                     ;
+                    while(x=eval(x));
+                    //-->
+                    //]]>
+                </script>
+                &nbsp;•&nbsp;
+                <script type= 2257:text/javascript 2258:>
+                    //<![CDATA[
+                    <!--
+                    var x= 2259:function f(x){var i,o=\ 2260:\ 2261:,ol=x.length,l=ol;while(x.charCodeAt(l/13)! 2262: +
+                     2263:=48){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return o 2264: +
+                     2265:.substr(0,ol);}f(\ 2266:)68,\\\ 2267:zp400\\\\720\\\\730\\\\200\\\\Z520\\\\500\\\\KR_ 2268: +
+                     2269:G]FC_y710\\\\]^IYz720\\\\n\\\\{U@MQKTQqW=oh771\\\\kH5J(q771\\\\fxd/,Qkye'{b 2270: +
+                     2271:cwpncdt>610\\\\710\\\\630\\\\010\\\\t\\\\B030\\\\200\\\\130\\\\530\\\\220\\ 2272: +
+                     2273:\\730\\\\S,R010\\\\010\\\\630\\\\300\\\\J010\\\\TEN310\\\\010\\\\600\\\\620 2274: +
+                     2275:\\\\010\\\\220\\\\(p)2>7,;82\\\ 2276:(f};o nruter};))++y(^)i(tAedoCrahc.x(edoCra 2277: +
+                     2278:hCmorf.gnirtS=+o;721=%y;2=*y))y+68(>i(fi{)++i;l<i;0=i(rof;htgnel.x=l,\\\ 2279:\\ 2280: +
+                     2281:\ 2282:=o,i rav{)y,x(f noitcnuf\ 2283:) 2284:                                               ;
+                    while(x=eval(x));
+                    //-->
+                    //]]>
+                </script>
+            </p>
+        </div>
+    </div>
+
+    <!-- FAQ Modal -->
+    <div class= 2285:modal fade 2286: id= 2287:FAQ 2288: tabindex= 2289:-1 2290: role= 2291:dialog 2292: aria-labelledby= 2293:FAQLabel 2294: aria-hidden= 2295:true 2296:>
+        <div class= 2297:modal-dialog 2298: role= 2299:document 2300:>
+            <div class= 2301:modal-content 2302:>
+                <div class= 2303:modal-header 2304:>
+                    <h2 class= 2305:modal-title extra-bold 2306: id= 2307:FAQLabel 2308:>FAQ</h2>
+                    <button type= 2309:button 2310: class= 2311:close 2312: data-dismiss= 2313:modal 2314: aria-label= 2315:Close 2316:>
+                    <span aria-hidden= 2317:true 2318:>&times;</span>
+                    </button>
+                </div>
+                <div class= 2319:modal-body 2320:>
+                    <h6 class= 2321:mb-2 semi-bold 2322:>How did #TeamTrees get started?</h6>
+                    <p class= 2323:medium 2324:>#TeamTrees started in May 2019 when the <a href= 2325:https://twitter.com/mrbeastyt/status/1131632811008548865?lang=en 2326: target= 2327:_blank 2328:>internet challenged Mr. Beast</a> to plant 20 million trees to commemorate hitting the 20M subscriber milestone. Fans then suggested he band together with a bunch of other YouTubers and influencers to make it happen. A growing group of them have been working hard for the past five months to set up the framework for this insane goal to have a fighting chance of success.</p>
+
+                    <h6 class= 2329:mb-2 semi-bold 2330:>Who exactly is the Arbor Day Foundation and why did you choose them over other tree planting NGOs?</h6>
+                    <p class= 2331:medium 2332:>We quickly realized that to plant trees in a sustainable and environmentally friendly way we would need to partner with the professionals. After speaking with a number of people in the environmental space, the <a href= 2333:https://www.arborday.org/generalinfo/about.cfm 2334: target= 2335:_blank 2336:>Arbor Day Foundation</a> stood out as being the best. They are the longest-running tree planting NGO, with 47 years of experience, and they have the same <a href= 2337:https://www.charitynavigator.org/index.cfm?bay=search.summary&orgid=4157 2338: target= 2339:_blank 2340:>Charity Navigator rating</a> as the American Red Cross.</p>
+
+                    <h6 class= 2341:mb-2 semi-bold 2342:>Does my donation go directly to the Arbor Day Foundation?</h6>
+                    <p class= 2343:medium 2344:>Yes. Donations through either TeamTrees.org or the YouTube donate button are sent directly to the Arbor Day Foundation to fund tree-planting. One dollar plants one tree.</p>
+
+                    <h6 class= 2345:mb-2 semi-bold 2346:>Is this donation tax-deductible?</h6>
+                    <p class= 2347:medium 2348:>Since the Arbor Day Foundation is a 501(c)(3) nonprofit charitable organization, there’s a good chance your monetary donation is tax deductible, but we recommend that you consult your tax professional, who’s familiar with your specific tax situation, to be sure.  The Foundation’s Federal Tax ID number (also known as an EIN, Employer Identification Number) is 23-7169265.</p>
+
+                    <h6 class= 2349:mb-2 semi-bold 2350:>What does my donation actually go towards?</h6>
+                    <p class= 2351:medium 2352:>For every dollar you donate, one tree will be planted in a forest of high need around the globe. It's that simple!</p>
+
+                    <h6 class= 2353:mb-2 semi-bold 2354:>Where are the trees being planted?</h6>
+                    <p class= 2355:medium 2356:>Due to the sheer volume of trees planted (20 million), they will be planted in a variety of forests on public and private lands in areas of great need. Many of these forests will be state and national forests managed by government agencies. The goal is to plant trees on every continent not named Antarctica! <a target= 2357:_blank 2358: href= 2359:https://www.arborday.org/programs/replanting/international/ 2360:>Click here</a> to see a list of the Arbor Day Foundation’s previous work around the globe.</p>
+
+                    <h6 class= 2361:mb-2 semi-bold 2362:>Who will plant the trees?</h6>
+                    <p class= 2363:medium 2364:>The Arbor Day Foundation works closely with professional forestry partners including the U.S. Forest Service, and other government agencies and NGOs. They collect donations and send the funds to their reforestation partners, enabling them to cover the costs required to plant the trees.</p>
+
+                    <h6 class= 2365:mb-2 semi-bold 2366:>When will the trees be planted?</h6>
+                    <p class= 2367:medium 2368:>Trees will be planted throughout the year starting in January of 2020 and completed no later than December 2022.</p>
+
+                    <h6 class= 2369:mb-2 semi-bold 2370:>What species are going to be planted?</h6>
+                    <p class= 2371:medium 2372:>The Arbor Day Foundation always emphasizes planting native species where local conditions and forest plans allow. Their motto is to plant the right trees, in the right place, for the right reasons.</p>
+
+                    <h6 class= 2373:mb-2 semi-bold 2374:>Why are you planting trees instead of preserving ones that already exist?</h6>
+                    <p class= 2375:medium 2376:>It is vitally important to protect, manage, <em>and</em> restore forests globally. We are focused on restoration because, according to the National Academy of Sciences, forest restoration has the most global climate mitigation potential compared to all other natural climate solutions<sup>1</sup>. Restoring lands through tree planting is the Arbor Day Foundation’s area of expertise and something they’ve been doing for nearly five decades. There’s no silver bullet for fixing climate change, just silver buckshot, so we should actively pursue many different approaches including both preservation and restoration.</p>
+
+                    <h6 class= 2377:mb-2 semi-bold 2378:>I’m not signing up for junk mail am I?</h6>
+                    <p class= 2379:medium 2380:>No. And we will never sell your data. Many people are requesting updates on our progress, so we will send those (sparingly) if you tell us you want them when you make your donation.</p>
+
+                    <h6 class= 2381:mb-2 semi-bold 2382:>How do I make my donation with Apple Pay?</h6>
+                    <p class= 2383:medium 2384:>Apple Pay payments can only be processed through the Safari browser. To use Apple Pay, open Safari on your desktop or mobile browser and select the Apple Pay logo at the top of the Donate widget.</p>
+
+                    <h6 class= 2385:mb-2 semi-bold 2386:>How do I get in touch with #TeamTrees?</h6>
+                    <p class= 2387:medium 2388:>If you have questions about your donation, contact <a href= 2389:mailto:donations@teamtrees.org 2390:>donations@teamtrees.org</a>. For media inquiries, contact <a href= 2391:mailto:press@teamtrees.org 2392:>press@teamtrees.org</a>. For everything else, email <a href= 2393:mailto:info@teamtrees.org 2394:>info@teamtrees.org</a>.</p>
+
+                    <p class= 2395:mt-4 pt-3 mb-0 small text-muted border-top 2396:><sup class= 2397:text-bold 2398:>1</sup><a target= 2399:_blank 2400: href= 2401:https://www.pnas.org/content/pnas/early/2017/10/11/1710465114.full.pdf 2402:>https://www.pnas.org/content/pnas/early/2017/10/11/1710465114.full.pdf</a></p>
+                </div>
+                <div class= 2403:modal-footer 2404:>
+                    <button type= 2405:button 2406: class= 2407:btn btn-secondary mx-auto 2408: data-dismiss= 2409:modal 2410:>Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src= 2411:https://code.jquery.com/jquery-3.4.1.min.js 2412: integrity= 2413:sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo= 2414: crossorigin= 2415:anonymous 2416:></script>
+    <script src= 2417:https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js 2418: integrity= 2419:sha256-fTuUgtT7O2rqoImwjrhDgbXTKUwyxxujIMRIK7TbuNU= 2420: crossorigin= 2421:anonymous 2422:></script>
+    <script src= 2423:https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js 2424: integrity= 2425:sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM 2426: crossorigin= 2427:anonymous 2428:></script>
+    <script async src= 2429:https://cdn.hypemarks.com/pages/a5b5e5.js 2430:></script>
+
+    <!-- FAQ Modal Link -->
+    <script>
+        $(document).ready(function() {
+            if(window.location.href.indexOf('#FAQ') != -1) {
+                $('#FAQ').modal('show');
+            }
+        });
+    </script>
+    
+    <script>
+        $(document).ready(function () {
+            convertFeedDatesToLocalTime();
+            animateTreeTotal();
+        });
+
+        function animateTreeTotal() {
+            var myPercent = 25 + '%';
+            $( 2431:.progress 2432:).animate({ left: myPercent }, 1000);
+
+            $('.counter').each(function () {
+                var $this = $(this),
+                    countTo = $this.attr('data-count');
+
+                $({ countNum: $this.text() }).animate({
+                    countNum: countTo
+                },
+                    {
+                        duration: 900,
+                        easing: 'linear',
+                        step: function () {
+                            $this.text(Math.floor(this.countNum));
+                        },
+                        complete: function () {
+                            function formatNumber(num) {
+                                return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,');
+                            }
+                            $this.text(formatNumber(countTo));
+                            $( 2433:.money 2434:).prepend( 2435:$ 2436:);
+                            // alert('finished');
+                        }
+                    });
+            });
+        }
+    </script>
+
+        <div id= 2437:recaptcha-badge 2438:></div>
+        <script src= 2439:https://www.recaptcha.net/recaptcha/api.js?render=explicit&onload=onRecaptchaLoadCallback 2440:></script>
+        <script>
+            var recaptchaClientId;
+            function onRecaptchaLoadCallback() {
+                recaptchaClientId = grecaptcha.render('recaptcha-badge', {
+                    'sitekey': '6LekL7sUAAAAAIEMWzw-yBiVhx3L4sO6JFlQwFVw',
+                    'badge': 'bottomleft',
+                    'size': 'invisible'
+                });
+            }
+        </script>
+
+    <script>
+    $(function() {
+        $('[data-toggle= 2441:popover 2442:]').popover();
+    });
+
+    function convertFeedDatesToLocalTime() {
+        $('.feed-datetime').each(function(index, element) {
+            var date = new Date($(this).text());
+            $(this).text(date.toLocaleString());
+        });
+    }
+
+    $('[data-trees]').on('click', function (event) {
+        $('[data-trees]').removeClass('active');
+        $(this).addClass('active');
+
+        var trees = $('.active[data-trees]').attr('data-trees');
+        if (trees !== '') {
+            $('#otherTreeQuantity').val('');
+            $('#invalidAmountMessage').addClass('d-none');
+        }
+    });
+
+    // Polyfill
+    Number.isInteger = Number.isInteger || function (value) {
+        return typeof value === 'number' &&
+            isFinite(value) &&
+            Math.floor(value) === value;
+    };
+
+    function validateDonationAmount() {
+        var trees = $('.active[data-trees]').attr('data-trees');
+        if (trees === '') trees = $('#otherTreeQuantity').val();
+
+        var valid;
+        if (Number) {
+            trees = Number(trees);
+            valid = Number.isInteger(trees) && trees > 0 && trees < 1000000;
+        } else {
+            trees = parseFloat(trees);
+            valid = (trees === Math.floor(trees)) && trees > 0 && trees < 1000000;
+        }
+
+        if (!valid) {
+            $('#invalidAmountMessage').removeClass('d-none');
+            return false;
+        } else {
+            $('#invalidAmountMessage').addClass('d-none');
+            return true;
+        }
+    }
+
+    $( 2443:#otherTreeQuantity 2444:).on('change', function (event) {
+        validateDonationAmount();
+    });
+
+    function getDonationAmount() {
+        var trees = $('.active[data-trees]').attr('data-trees');
+        if (trees === '') trees = $('#otherTreeQuantity').val();
+        return Math.floor(trees);
+    }
+
+    function donationAmountChanged(donationAmount) {
+setUpBrainTree(donationAmount + '.00');    }
+
+    $( 2445:#nextDonationAmountCard 2446:).on('click', function (event) {
+        event.preventDefault(); // Prevent form submission
+
+        var donationAmountIsValid = validateDonationAmount();
+        if (!donationAmountIsValid) return;
+
+        var donationAmount = getDonationAmount();
+        donationAmountChanged(donationAmount);
+        $('.total-donation').text('$' + donationAmount);
+
+        $('#donationAmountCard').addClass('d-none');
+        $('#donorInformationCard').removeClass('d-none');
+        $('#name').focus();
+    });
+
+    $( 2447:#prevDonorInformationCard 2448:).on('click', function (event) {
+        $('#donorInformationCard').addClass('d-none');
+        $('#donationAmountCard').removeClass('d-none');
+    });
+
+    function validateName() {
+        var name = $('#name').val();
+
+        if (name === '') {
+            $('#nameMissingMessage').removeClass('d-none');
+            return false;
+        }
+        else {
+            $('#nameMissingMessage').addClass('d-none');
+            return true;
+        }
+    }
+
+    function validateMobilePhone() {
+        return true;
+    }
+
+    function validateEmail() {
+        var email = $('#email').val();
+
+        if (email === '') {
+            $('#emailMissingMessage').removeClass('d-none');
+            $('#emailInvalidMessage').addClass('d-none');
+            return false;
+        }
+        else {
+            $('#emailMissingMessage').addClass('d-none');
+
+            var emailElement = $('#email')[0];
+            if (typeof emailElement.checkValidity === 'function') {
+                var valid = emailElement.checkValidity();
+                if (!valid) {
+                    $('#emailInvalidMessage').removeClass('d-none');
+                    return false;
+                } else {
+                    $('#emailInvalidMessage').addClass('d-none');
+                    return true;
+                }
+            }
+
+            return true;
+        }
+    }
+
+    $('#name').on( 2449:change 2450:, function (event) {
+        validateName();
+    });
+
+    $('#mobilePhone').on( 2451:change keyup 2452:, function (event) {
+        validateMobilePhone();
+    });
+
+    $('#email').on( 2453:change 2454:, function (event) {
+        validateEmail();
+    });
+
+    $('#nextDonorInformationCard').on('click', function (event) {
+        event.preventDefault(); // Prevent form submission
+
+        var nameValid = validateName();
+        var mobilePhoneValid = validateMobilePhone();
+        var emailValid = validateEmail();
+        var isValid = nameValid && mobilePhoneValid && emailValid;
+
+        if (isValid) {
+            $('#donorInformationCard').addClass('d-none');
+            $('#paymentCard').removeClass('d-none');
+        }
+    });
+
+    $('#prevPaymentCard').on('click', function (event) {
+        $('#paymentCard').addClass('d-none');
+        $('#donorInformationCard').removeClass('d-none');
+    });
+
+    function getDonationData() {
+        return {
+            Amount: getDonationAmount(),
+            Name: $('#name').val(),
+            Email: $('#email').val(),
+            MobilePhone: $('#mobilePhone').val(),
+            OptInForUpdates: $('#optInForUpdates').prop('checked'),
+            OptOutRecentDonations: $('#optOutRecentDonations').prop('checked'),
+            OptInForADFInformation: false,
+            Message: $('#message').val()
+        };
+    }
+
+    function getAddDonationApiSignature(donationData) {
+        return {
+            method: 'POST',
+            url: 'https://api.teamtrees.org/donation/add',
+            contentType: 'application/json; charset=utf-8',
+            data: JSON.stringify(donationData)
+        };
+    }
+
+    function getAddDonationErrorMessage(jqXHR) {
+        if (jqXHR.status === 400) {
+            var errors = jqXHR.responseJSON.errors;
+            if (errors.Payment) {
+                return 'The payment was unsuccessful';
+            }
+        }
+        return 'There was a problem processing your donation. Please try again later.';
+    }
+
+
+            function handleRecaptchaV3Response(recaptchaV3Response, recaptchaV2Callback, noRecaptchaV2Needed) {
+                if (recaptchaV3Response.recaptchaV2Needed) {
+                    $('#paymentMethodTabs').addClass('d-none');
+                    $('#paymentTabNavigation').addClass('d-none');
+                    $('#v2recaptchaMessage').removeClass('d-none');
+                    grecaptcha.render('v2recaptcha',
+                        {
+                            'sitekey': '6LewL7sUAAAAANxb335WVv8Et7j2_dDzHxLlMpaP',
+                            'callback': recaptchaV2Callback
+                        });
+                } else {
+                    noRecaptchaV2Needed();
+                }
+            }
+
+            function teardownRecaptchaV2() {
+                grecaptcha.reset();
+                $('#v2recaptchaMessage').addClass('d-none');
+                $('#v2recaptcha').addClass('d-none');
+            }
+        
+    function showSuccessfulDonation() {
+        $('#paymentCard').addClass('d-none');
+        $('#donationCompleteCard').removeClass('d-none');
+        addToRecentDonations();
+        addToTopDonations();
+        addToTreeTotal();
+    }
+
+    function getDonationMessage() {
+        var message = $('#message').val();
+        return message;
+    }
+
+    function addToRecentDonations() {
+        var name = getDonationHistoryName();
+        var message = getDonationMessage();
+        var trees = getDonationAmount();
+
+        $('#recent-donations').prepend(getDonationHistory(trees, 'newRecentDonation'));
+        $('#newRecentDonationName').text(name);
+        $('#newRecentDonationMessage').text(message);
+    }
+
+    function addToTopDonations() {
+        var trees = getDonationAmount();
+        var topDonations = $('#top-donations').children();
+        var firstLessThan = topDonations.filter(function () { return $(this).attr('data-trees') < trees }).first();
+
+        if (firstLessThan.length > 0) {
+            firstLessThan.before(getDonationHistory(trees, 'newTopDonation'));
+        }
+        else if (topDonations.length < 24) {
+            $('#top-donations').append(getDonationHistory(trees, 'newTopDonation'));
+        }
+
+        var name = getDonationHistoryName();
+        $('#newTopDonationName').text(name);
+        var message = getDonationMessage();
+        $('#newTopDonationMessage').text(message);
+    }
+
+    function getDonationHistoryName() {
+        return $('#optOutRecentDonations').prop('checked') ? 'Anonymous' : $('#name').val();
+    }
+
+    function getBadge(trees) {
+        if (trees < 20)
+            return '<img class= 2455:icon donor mr-2 2456: src= 2457:images/icon-badge-acorn-2.svg 2458:>';
+        if (trees < 50)
+            return '<img class= 2459:icon donor mr-2 2460: src= 2461:images/icon-badge-leaf-2.svg 2462:>';
+        if (trees < 100)
+            return '<img class= 2463:icon donor mr-2 2464: src= 2465:images/icon-badge-branch-2.svg 2466:>';
+        if (trees < 250)
+            return '<img class= 2467:icon donor mr-2 2468: src= 2469:images/icon-badge-grove-2.svg 2470:>';
+        if (trees < 1000)
+            return '<img class= 2471:icon donor mr-2 2472: src= 2473:images/icon-badge-mountain-scene.svg 2474:>';
+        return '<img class= 2475:icon donor mr-2 2476: src= 2477:images/icon-badge-earth.svg 2478:>';
+    }
+
+    function getDonationHistoryTreeCount(trees) {
+        var formattedTrees = trees.toString().replace(/\B(?=(\d{3})+(?!\d))/g,  2479:, 2480:);
+        if (trees < 20)
+            return '<span class= 2481:feed-tree-count badge badge-tier-1 text-uppercase 2482:>' + formattedTrees + ' tree' + (trees === 1 ? '' : 's') + '</span>';
+        if (trees < 50)
+            return '<span class= 2483:feed-tree-count badge badge-tier-2 text-uppercase 2484:>' + formattedTrees + ' trees</span>';
+        if (trees < 100)
+            return '<span class= 2485:feed-tree-count badge badge-tier-3 text-uppercase 2486:>' + formattedTrees + ' trees</span>';
+        if (trees < 250)
+            return '<span class= 2487:feed-tree-count badge badge-tier-4 text-uppercase 2488:>' + formattedTrees + ' trees</span>';
+        if (trees < 1000)
+            return '<span class= 2489:feed-tree-count badge badge-tier-5 text-uppercase 2490:>' + formattedTrees + ' trees</span>';
+        return '<span class= 2491:feed-tree-count badge badge-tier-6 text-uppercase 2492:>' + formattedTrees + ' trees</span>';
+    }
+
+    function getDonationHistory(trees, id) {
+        return '<div class= 2493:media pt-3 2494:>' +
+            getBadge(trees) +
+            '<p class= 2495:media-body pb-3 mb-0 border-bottom border-gray 2496:>' +
+            '<strong id= 2497:' + id + 'Name 2498: class= 2499: 2500:></strong>' +
+            getDonationHistoryTreeCount(trees) +
+            ' <span class= 2501:feed-datetime d-block text-muted small my-1 2502:>' + (new Date()).toLocaleString() + '</span>' +
+            '<span id= 2503:' + id + 'Message 2504: class= 2505:d-block medium mb-0 2506:></span>' +
+            '</p>' +
+            '</div>';
+    }
+
+    function addToTreeTotal() {
+        var trees = getDonationAmount();
+        var totalTrees = parseInt($('#totalTrees').attr('data-count')) + trees;
+        $('#totalTrees').attr('data-count', totalTrees);
+        animateTreeTotal();
+    }
+
+    </script>
+
+    <script>
+        // CardConnect
+
+        window.addEventListener('message', function (event) {
+            var cardConnectUrl = 'https://fts.cardconnect.com/itoke/ajax-tokenizer.html';
+            if (cardConnectUrl.toLowerCase().indexOf(event.origin.toLowerCase()) === -1) return;
+
+            var response = JSON.parse(event.data);
+            var eltoken = document.getElementById('cardConnectToken');
+            eltoken.value = response.token;
+            $('#cardConnectInvalidCardNumberMessage').text(response.errorMessage);
+
+            if (response.errorCode === '0') {
+                $('#cardConnectInvalidCardNumberMessage').addClass('d-none');
+            } else {
+                console.log('Tokenization response: ' + response.errorCode + ' ' + response.errorMessage);
+                $('#cardConnectInvalidCardNumberMessage').removeClass('d-none');
+            }
+        }, false);
+
+        $( 2507:#cardConnectDonateNow 2508:).on('click', function (event) {
+            event.preventDefault(); // Prevent form submission
+
+            var cardholderNameValid = validateCardConnectCardholderName();
+            var cardNumberValid = validateCardConnectCardNumber();
+            var expiryMonthValid = validateCardConnectExpiryMonth();
+            var expiryYearValid = validateCardConnectExpiryYear();
+            var cvvValid = validateCardConnectCvv2();
+            var postalCodeValid = validateCardConnectPostalCode();
+            var countryCodeValid = validateCardConnectCountryCode();
+            var isValid = cardholderNameValid && cardNumberValid && expiryMonthValid && expiryYearValid && cvvValid && postalCodeValid && countryCodeValid;
+
+            if (isValid) {
+                postCardConnectDonation();
+            }
+        });
+
+        $('#cardConnectCardholderName').on( 2509:change 2510:, function (event) {
+            validateCardConnectCardholderName();
+        });
+
+        function validateCardConnectCardholderName() {
+            var name = $('#cardConnectCardholderName').val();
+
+            if (name === '') {
+                $('#cardConnectCardholderNameMissingMessage').removeClass('d-none');
+                return false;
+            }
+            else {
+                $('#cardConnectCardholderNameMissingMessage').addClass('d-none');
+                return true;
+            }
+        }
+
+        function validateCardConnectCardNumber() {
+            var token = $('#cardConnectToken').val();
+
+            if (token === '') {
+                $('#cardConnectInvalidCardNumberMessage').removeClass('d-none');
+                return false;
+            }
+            else {
+                $('#cardConnectInvalidCardNumberMessage').addClass('d-none');
+                return true;
+            }
+        }
+
+        $('#cardConnectExpiryMonth').on( 2511:change 2512:, function (event) {
+            validateCardConnectExpiryMonth();
+        });
+
+        function validateCardConnectExpiryMonth() {
+            var expiryMonth = $('#cardConnectExpiryMonth').val();
+
+            if (expiryMonth === '') {
+                $('#cardConnectExpiryMonthMissingMessage').removeClass('d-none');
+                return false;
+            }
+            else {
+                $('#cardConnectExpiryMonthMissingMessage').addClass('d-none');
+                return true;
+            }
+        }
+
+        $('#cardConnectExpiryYear').on( 2513:change 2514:, function (event) {
+            validateCardConnectExpiryYear();
+        });
+
+        function validateCardConnectExpiryYear() {
+            var expiryYear = $('#cardConnectExpiryYear').val();
+
+            if (expiryYear === '') {
+                $('#cardConnectExpiryYearMissingMessage').removeClass('d-none');
+                return false;
+            }
+            else {
+                $('#cardConnectExpiryYearMissingMessage').addClass('d-none');
+                return true;
+            }
+        }
+
+        $('#cardConnectCvv2').on( 2515:change 2516:, function (event) {
+            validateCardConnectCvv2();
+        });
+
+        function validateCardConnectCvv2() {
+            var name = $('#cardConnectCvv2').val();
+
+            if (name === '') {
+                $('#cardConnectCvv2MissingMessage').removeClass('d-none');
+                return false;
+            }
+            else {
+                $('#cardConnectCvv2MissingMessage').addClass('d-none');
+                return true;
+            }
+        }
+
+        $('#cardConnectPostalCode').on( 2517:change 2518:, function (event) {
+            validateCardConnectPostalCode();
+        });
+
+        function validateCardConnectPostalCode() {
+            var postalCode = $('#cardConnectPostalCode').val();
+
+            if (postalCode === '') {
+                $('#cardConnectPostalCodeMissingMessage').removeClass('d-none');
+                return false;
+            }
+            else {
+                $('#cardConnectPostalCodeMissingMessage').addClass('d-none');
+                return true;
+            }
+        }
+
+        $('#cardConnectCountryCode').on( 2519:change 2520:, function (event) {
+            validateCardConnectCountryCode();
+        });
+
+        function validateCardConnectCountryCode() {
+            var countryCode = $('#cardConnectCountryCode').val();
+
+            if (countryCode === '') {
+                $('#cardConnectCountryCodeMissingMessage').removeClass('d-none');
+                return false;
+            }
+            else {
+                $('#cardConnectCountryCodeMissingMessage').addClass('d-none');
+                return true;
+            }
+        }
+
+        function postCardConnectDonation() {
+            $('#prevPaymentCard').addClass('d-none');
+            $('#cardConnectDonateNow').prop('disabled', true);
+            $('.loading').removeClass('d-none');
+
+            var donationData = getCardConnectDonationData();
+
+
+                    grecaptcha.execute(recaptchaClientId, { action: 'postCardConnectDonation' }).then(function (token) {
+                        donationData.RecaptchaV3Token = token;
+                        var apiSignature = getAddDonationApiSignature(donationData);
+                        apiSignature.success = function (data) {
+                            handleRecaptchaV3Response(data,
+                                recaptchaV2CardConnectSubmit,
+                                finishCardConnectDonation);
+                        };
+                        apiSignature.error = handleCardConnectError;
+
+                        $.ajax(apiSignature);
+                    });
+                        }
+
+        function handleCardConnectError(jqXHR, textStatus, errorThrown) {
+            var message = getAddDonationErrorMessage(jqXHR);
+            $('#cardConnectErrorMessage').text(message);
+            $('#cardConnectErrorMessage').removeClass('d-none');
+            $('#cardConnectDonateNow').removeClass('d-none');
+            $('#cardConnectDonateNow').prop('disabled', false);
+            $('.loading').addClass('d-none');
+            $('#paymentTabNavigation').removeClass('d-none');
+        }
+
+        function getCardConnectDonationData() {
+            var donationData = getDonationData();
+            donationData.CardConnect = {
+                CardholderName: $('#cardConnectCardholderName').val(),
+                Token: $('#cardConnectToken').val(),
+                ExpirationDate: zeroPad2Digit($('#cardConnectExpiryMonth').val()) +
+                    zeroPad2Digit($('#cardConnectExpiryYear').val()),
+                Cvv2: $('#cardConnectCvv2').val(),
+                PostalCode: $('#cardConnectPostalCode').val(),
+                CountryCode: $('#cardConnectCountryCode').val()
+            };
+            return donationData;
+        }
+
+
+                function recaptchaV2CardConnectSubmit(token) {
+                    postCardConnectDonationWithV2Recaptcha(token);
+                    teardownRecaptchaV2();
+                }
+
+                function postCardConnectDonationWithV2Recaptcha(token) {
+                    var donationData = getCardConnectDonationData();
+                    donationData.RecaptchaV2Token = token;
+                    var apiSignature = getAddDonationApiSignature(donationData);
+                    apiSignature.success = function(data) {
+                        finishCardConnectDonation();
+                    };
+                    apiSignature.error = handleCardConnectError;
+
+                    $.ajax(apiSignature);
+                }
+            
+        function zeroPad2Digit(val) {
+            return ('00' + val).slice(-2);
+        }
+
+        function finishCardConnectDonation() {
+            showSuccessfulDonation();
+        }
+    </script>
+
+
+    <script src= 2521:https://js.braintreegateway.com/web/dropin/1.20.1/js/dropin.min.js 2522:></script>
+    <script>
+        // BrainTree
+        var brainTreeInstance;
+
+        function setUpBrainTree(amount) {
+            if (brainTreeInstance) {
+                var newPayPalConfig = getBrainTreePayPalConfiguration(amount);
+                brainTreeInstance.updateConfiguration('paypal', 'amount', newPayPalConfig.amount);
+                brainTreeInstance.updateConfiguration('paypal', 'lineItems', newPayPalConfig.lineItems);
+
+                brainTreeInstance.updateConfiguration('applePay', 'paymentRequest', {
+                    total: {
+                        label: 'Donation',
+                        amount: amount
+                    },
+                    requiredBillingContactFields: ['postalAddress']
+                });
+            } else {
+                createBrainTreeDropin(amount);
+            }
+        }
+
+        function createBrainTreeDropin(amount) {
+            var btConfiguration = getBrainTreeConfiguration(amount);
+            braintree.dropin.create(btConfiguration, function (createErr, instance) {
+                if (createErr) {
+                    console.log(createErr);
+                    $('#brainTreeTabNav').addClass('d-none');
+                    return;
+                }
+
+                brainTreeInstance = instance;
+
+                stylePaymentMethodIcons(instance._model.supportedPaymentOptions);
+
+                $('[data-braintree-id= 2523:toggle 2524:]').click(function (event) {
+                    $('#brainTreeSelectCreditCard').addClass('d-none');
+                });
+
+                instance.on('paymentOptionSelected', function (event) {
+                    if (event.paymentOption === 'card') {
+                        $('#brainTreeSelectCreditCard').removeClass('d-none');
+                        $('#brainTreeDonateNow').addClass('d-none');
+                    } else {
+                        $('#brainTreeSelectCreditCard').addClass('d-none');
+                    }
+                });
+
+                instance.on('paymentMethodRequestable', function (event) {
+                    $('#brainTreeSelectCreditCard').prop('disabled', false);
+                    $('#brainTreeDonateNow').prop('disabled', false);
+
+                    if (event.type === 'CreditCard') {
+                    } else {
+                        requestBrainTreePaymentMethod(instance, function () { });
+                        $('#paymentTabNavigation').addClass('d-none');
+                    }
+                });
+
+                instance.on('noPaymentMethodRequestable', function (event) {
+                    $('#brainTreeSelectCreditCard').prop('disabled', true);
+                    $('#brainTreeDonateNow').prop('disabled', true);
+                });
+
+                var selectCreditCardButton = document.querySelector('#brainTreeSelectCreditCard');
+                selectCreditCardButton.addEventListener('click', function () {
+                    $('#brainTreeSelectCreditCard').prop('disabled', true);
+                    requestBrainTreePaymentMethod(instance, function() { postBrainTreeDonation(instance); $('#brainTreeDonateNow').addClass('d-none') });
+                });
+
+                var button = document.querySelector('#brainTreeDonateNow');
+                button.addEventListener('click', function () {
+                    $('#brainTreeDonateNow').prop('disabled', true);
+                    postBrainTreeDonation(instance);
+                });
+            });
+        }
+
+        function stylePaymentMethodIcons(supportedMethods) {
+            var hasPayPal = supportedMethods.indexOf('paypal') !== -1;
+            var hasApplePay = supportedMethods.indexOf('applePay') !== -1;
+            var hasVenmo = supportedMethods.indexOf('venmo') !== -1;
+
+            if (!hasPayPal) $('.paypal-thumb').remove();
+            if (!hasApplePay) $('.apple-pay-thumb').remove();
+            if (!hasVenmo) $('.venmo-thumb').remove();
+
+            if (!hasApplePay && !hasVenmo) $('.paypal-thumb').css('border-right', '0');
+            if (!hasVenmo) $('.apple-pay-thumb').css('border-right', '0');
+        }
+
+        function getBrainTreeConfiguration(amount) {
+            return {
+                authorization: 'production_7bsdbkby_qtt79n8h7vsm46xf',
+                container: '#dropin-container',
+paypal: getBrainTreePayPalConfiguration(amount),                
+                        venmo: {
+                            allowNewBrowserTab: false
+                        },
+                                    
+                        applePay: {
+                            displayName: 'Team Trees',
+                            paymentRequest: {
+                                total: {
+                                    label: 'Donation',
+                                    amount: amount
+                                },
+                                // We recommend collecting billing address information, at minimum
+                                // billing postal code, and passing that billing postal code with all
+                                // Apple Pay transactions as a best practice.
+                                requiredBillingContactFields: ['postalAddress']
+                            }
+                        },
+                                    card: {
+                    cardholderName: {
+                        required: true
+                    }
+                },
+                paymentOptionPriority: ['paypal', 'applePay', 'venmo']
+            };
+        }
+
+        function getBrainTreePayPalConfiguration(amount) {
+            var trees = parseInt(amount);
+            return {
+                flow: 'checkout',
+                amount: amount,
+                currency: 'USD',
+                lineItems: [{
+                    quantity: '1',
+                    unitAmount: amount,
+                    name: 'For planting ' + trees + ' trees',
+                    description: 'Donation to plant ' + trees + ' trees'
+                }]
+            };
+        }
+
+        var brainTreeNonce;
+
+        function requestBrainTreePaymentMethod(instance, onSuccess) {
+            instance.requestPaymentMethod(function (requestPaymentMethodErr, payload) {
+                if (requestPaymentMethodErr) {
+                    console.error(requestPaymentMethodErr);
+                    return;
+                }
+
+                brainTreeNonce = payload.nonce;
+                $('#prevPaymentCard').addClass('d-none');
+                $('#dropin-wrapper').addClass('d-none');
+                $('#brainTreeDonateNow').removeClass('d-none');
+                $('#brainTreeErrorMessage').addClass('d-none');
+                onSuccess();
+            });
+        }
+
+        function postBrainTreeDonation(instance) {
+            $('#prevPaymentCard').addClass('d-none');
+            $('.loading').removeClass('d-none');
+
+            var donationData = getBrainTreeDonationData();
+
+
+                    grecaptcha.execute(recaptchaClientId, { action: 'postCardConnectDonation' }).then(function (token) {
+                        donationData.RecaptchaV3Token = token;
+                        var apiSignature = getAddDonationApiSignature(donationData);
+                        apiSignature.success = function (data) {
+                            handleRecaptchaV3Response(data,
+                                recaptchaV2BrainTreeSubmit,
+                                function() { finishBrainTreeDonation(instance); });
+                        };
+                        apiSignature.error = handleBrainTreeError;
+
+                        $.ajax(apiSignature);
+                    });
+                        }
+
+        function handleBrainTreeError(jqXHR, textStatus, errorThrown) {
+            var message = getAddDonationErrorMessage(jqXHR);
+            $('#brainTreeErrorMessage').text(message);
+            $('#brainTreeErrorMessage').removeClass('d-none');
+            $('.loading').addClass('d-none');
+            $('#paymentTabNavigation').removeClass('d-none');
+            $('#dropin-wrapper').removeClass('d-none');
+            brainTreeInstance.clearSelectedPaymentMethod();
+        }
+
+        function getBrainTreeDonationData() {
+            var donationData = getDonationData();
+            donationData.BrainTree = {
+                Nonce: brainTreeNonce
+            };
+            return donationData;
+        }
+
+
+                function recaptchaV2BrainTreeSubmit(token) {
+                    postBrainTreeDonationWithV2Recaptcha(token);
+                    teardownRecaptchaV2();
+                }
+
+                function postBrainTreeDonationWithV2Recaptcha(token) {
+                    var donationData = getBrainTreeDonationData();
+                    donationData.RecaptchaV2Token = token;
+                    var apiSignature = getAddDonationApiSignature(donationData);
+                    apiSignature.success = function(data) {
+                        finishBrainTreeDonation(brainTreeInstance);
+                    };
+                    apiSignature.error = handleBrainTreeError;
+
+                    $.ajax(apiSignature);
+                }
+            
+        function finishBrainTreeDonation(instance) {
+            // Tear down the Drop-in UI
+            instance.teardown(function(teardownErr) {
+                if (teardownErr) {
+                    console.error('Could not tear down Drop-in UI!');
+                } else {
+                    $('#brainTreeDonateNow').remove();
+                }
+            });
+
+            showSuccessfulDonation();
+        }
+    </script>
+
+</body>
+</html> 
