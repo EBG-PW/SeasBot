@@ -4,7 +4,8 @@ var Output = "";
 let url = 'https://teamtrees.org/'
 var DataPath = './www/data/TeamTrees.csv'
 var HTMLPath = './HTML.txt'
-var TreePointer = 157;
+var TreePointer = 159;
+var TreePointerOld = TreePointer;
 
 var express = require('express');
 var app = express();
@@ -34,10 +35,9 @@ function getTrees() {
 			
 			var bodyarr = body.split('"')
 			console.log(bodyarr.length)
-		
 			if(typeof bodyarr[TreePointer] !== 'undefined'){
 				if(isNaN(bodyarr[TreePointer])) {
-					bot.sendMessage(-1001423197733, "WARNING: Webpadge changed\nTreePointer was: " + TreePointer, { parseMode: 'markdown' });
+					TreePointerOld = TreePointer;
 					console.log("Not A number");
 					for(var i = 0; i < bodyarr.length;i++){
 						Output = Output + i + ":" + bodyarr[i] + " ";
@@ -47,12 +47,11 @@ function getTrees() {
 							console.log("Found!" + i);
 						}
 					}
-					bot.sendMessage(-1001423197733, "WARNING: Trying to auto map HTML -->\nNew TreePointer is: " + TreePointer, { parseMode: 'markdown' });
 					fs.writeFile("HTML.txt", Output, (err) => {if (err) console.log(err);
 						console.log("HTML File has updated");
 						bot.sendDocument(-1001423197733, HTMLPath);
 					});
-					bot.sendMessage(-1001423197733,"If the post that came now still not contains the right Tree Amount, contact @BolverBlitz now!");
+					bot.sendMessage(-1001423197733,"WARNING: Webpadge changed\nTrying to auto map HTML -->\nNew TreePointer is: " + TreePointer + "\nTreePointer was: " + TreePointerOld + "\nIf the post that came now still not contains the right Tree Amount, contact @BolverBlitz now!");
 				}
 			
 				var TreeDiff = bodyarr[TreePointer] - LastTree;
@@ -65,7 +64,6 @@ function getTrees() {
 				fs.appendFile('./www/data/TeamTreesChart.csv', TreesChart, (err) => {if (err) console.log(err);
 					log("Trees: " + bodyarr[TreePointer]/1000 + " Diff " + TreeDiff)
 				});
-				//console.log(bodyarr[TreePointer])
 				bot.sendMessage(-1001423197733, "Trees planted: " + numberWithCommas(bodyarr[TreePointer]) + "\nNew trees: " + numberWithCommas(TreeDiff) + "\n[View Graph](home.bolverblitz.net:3333)" + "\n\n[Plant more!](teamtrees.org)", { parseMode: 'markdown' });
 			}else{
 				Trees = "\n" + getDateTime(new Date()) + "," + LastTree + "," + "0"
@@ -99,18 +97,12 @@ function getTrees24() {
 			var bodyarr = body.split('"')
 			
 			if(typeof bodyarr[TreePointer] !== 'undefined'){
-			/*console.log(bodyarr.length)
-
-			for(var i = 0; i < bodyarr.length;i++){
-				Output = Output + i + ":" + bodyarr[i] + " ";
-				console.log(i);
-			}*/
 			
 			
-			var TreeDiff24 = bodyarr[TreePointer] - LastTree24;
-            bot.sendMessage(-1001068986550, "Trees planted: " + numberWithCommas(bodyarr[TreePointer]) + "\nNew trees(24h): " + numberWithCommas(TreeDiff24) + "\n[View Graph](home.bolverblitz.net:3333)" + "\n\n[Plant more!](teamtrees.org)", { parseMode: 'markdown' });
+			   var TreeDiff24 = bodyarr[TreePointer] - LastTree24;
+         	     	   bot.sendMessage(-1001068986550, "Trees planted: " + numberWithCommas(bodyarr[TreePointer]) + "\nNew trees(24h): " + numberWithCommas(TreeDiff24) + "\n[View Graph](home.bolverblitz.net:3333)" + "\n\n[Plant more!](teamtrees.org)", { parseMode: 'markdown' });
 			}else{
-			bot.sendMessage(-1001068986550, "The Webpadge is down..." + "\n[View Graph](home.bolverblitz.net:3333)" + "\n\n[Plant more!](teamtrees.org)", { parseMode: 'markdown' });
+			   bot.sendMessage(-1001068986550, "The Webpadge is down..." + "\n[View Graph](home.bolverblitz.net:3333)" + "\n\n[Plant more!](teamtrees.org)", { parseMode: 'markdown' });
 			}
 		});
 	}, 1);//900000
@@ -134,8 +126,7 @@ function getDateTime(date) {
 
 	var day  = date.getDate();
 	day = (day < 10 ? "0" : "") + day;
-	//2019-010-26
-	//return day + "." + month + "." + year;
+
 	return year + "-" + month + "-" + day;
 }
 
@@ -169,6 +160,26 @@ function numberWithCommas(x) {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
+function getlast24h() {
+    var LT = fs.readFileSync('./www/data/TeamTrees.csv');
+	var LTarr = LT.toString().split(/\s+/);
+	var LTarr = LTarr.toString().split(",");
+	var LastTree24 = Number(LTarr[LTarr.length-2]);
+	var LastTree24end = Number(LTarr[LTarr.length-146]);
+	var last24hTrees = LastTree24 - LastTree24end;
+	return numberWithCommas(last24hTrees);
+}
+
+function getlast7d() {
+    var LT = fs.readFileSync('./www/data/TeamTrees.csv');
+	var LTarr = LT.toString().split(/\s+/);
+	var LTarr = LTarr.toString().split(",");
+	var LastTree24 = Number(LTarr[LTarr.length-2]);
+	var LastTree24end = Number(LTarr[LTarr.length-1010]);
+	var last24hTrees = LastTree24 - LastTree24end;
+	return numberWithCommas(last24hTrees);
+}
+
 bot.start();
 
 bot.on('/id',(msg) => {
@@ -177,7 +188,17 @@ bot.deleteMessage(msg.chat.id, msg.message_id);
 });
 
 bot.on(['/start', '/help'],(msg) => {
-msg.reply.text("Hello, i´ll post the stats every 30min to @TeamTreesLog and once a day to @EverythingScience\nYou can have the data with /pushdata");
+msg.reply.text("Hello, i´ll post the stats every 30min to @TeamTreesLog and once a day to @EverythingScience\nYou can have the data with /pushdata\n\nYou can also use /last24h or /last7d to get the amount of trees planted in that given timespan");
+bot.deleteMessage(msg.chat.id, msg.message_id);
+});
+
+bot.on('/last24h',(msg) => {
+msg.reply.text("In the last 24h where " + getlast24h() + " Trees planted.");
+bot.deleteMessage(msg.chat.id, msg.message_id);
+});
+
+bot.on('/last7d',(msg) => {
+msg.reply.text("In the last 7d where " + getlast7d() + " Trees planted.");
 bot.deleteMessage(msg.chat.id, msg.message_id);
 });
 
@@ -188,11 +209,6 @@ msg.reply.text("If there is a 0 in the row Diff, that means the webpadge was not
 bot.deleteMessage(msg.chat.id, msg.message_id);
 });
 
-/*setInterval(function(){
-	getTrees();
-}, 1800000); //3600000
-      //1800000
-*/
 setInterval(function(){
 	if(getHourUTC(new Date()) === '1200'){
 		getTrees24();
