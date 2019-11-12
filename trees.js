@@ -4,7 +4,7 @@ var Output = "";
 let url = 'https://teamtrees.org/'
 var DataPath = './www/data/TeamTrees.csv'
 var HTMLPath = './HTML.txt'
-var TreePointer = 159;
+var TreePointer = 1335;
 var TreePointerOld = TreePointer;
 
 var express = require('express');
@@ -99,10 +99,10 @@ function getTrees24() {
 			if(typeof bodyarr[TreePointer] !== 'undefined'){
 			
 			
-			   var TreeDiff24 = bodyarr[TreePointer] - LastTree24;
-         	     	   bot.sendMessage(-1001068986550, "Trees planted: " + numberWithCommas(bodyarr[TreePointer]) + "\nNew trees(24h): " + numberWithCommas(TreeDiff24) + "\n[View Graph](home.bolverblitz.net:3333)" + "\n\n[Plant more!](teamtrees.org)", { parseMode: 'markdown' });
+			var TreeDiff24 = bodyarr[TreePointer] - LastTree24;
+            bot.sendMessage(-1001068986550, "Trees planted: " + numberWithCommas(bodyarr[TreePointer]) + "\nNew trees(24h): " + numberWithCommas(TreeDiff24) + "\n[View Graph](home.bolverblitz.net:3333)" + "\n\n[Plant more!](teamtrees.org)", { parseMode: 'markdown' });
 			}else{
-			   bot.sendMessage(-1001068986550, "The Webpadge is down..." + "\n[View Graph](home.bolverblitz.net:3333)" + "\n\n[Plant more!](teamtrees.org)", { parseMode: 'markdown' });
+			bot.sendMessage(-1001068986550, "The Webpadge is down..." + "\n[View Graph](home.bolverblitz.net:3333)" + "\n\n[Plant more!](teamtrees.org)", { parseMode: 'markdown' });
 			}
 		});
 	}, 1);//900000
