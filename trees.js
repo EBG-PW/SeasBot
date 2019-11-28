@@ -7,6 +7,13 @@ var HTMLPath = './HTML.txt'
 var TreePointer = 1335;
 var TreePointerOld = TreePointer;
 
+let Sekunde = 1000;
+let Minute = Sekunde*60;
+let Stunde = Minute*60;
+let Tag = Stunde*24;
+let Monat = Tag*(365/12);
+let Jahr = Tag*365;
+
 var express = require('express');
 var app = express();
 app.use(express.static(__dirname + '/www'));
@@ -167,7 +174,7 @@ function getlast24h() {
 	var LastTree24 = Number(LTarr[LTarr.length-2]);
 	var LastTree24end = Number(LTarr[LTarr.length-146]);
 	var last24hTrees = LastTree24 - LastTree24end;
-	return numberWithCommas(last24hTrees);
+	return last24hTrees;
 }
 
 function getlast7d() {
@@ -177,7 +184,47 @@ function getlast7d() {
 	var LastTree24 = Number(LTarr[LTarr.length-2]);
 	var LastTree24end = Number(LTarr[LTarr.length-1010]);
 	var last24hTrees = LastTree24 - LastTree24end;
-	return numberWithCommas(last24hTrees);
+	return last24hTrees;
+}
+
+function getCurrentTrees() {
+
+	var LT = fs.readFileSync('./www/data/TeamTrees.csv');
+	var LTarr = LT.toString().split(/\s+/);
+	var LTarr = LTarr.toString().split(",");
+	return Number(LTarr[LTarr.length-2]);
+
+			
+}
+
+function getDiffTotalToCurrentRateWeek() {
+	var newDate = "12/31/2019"; //Must Be Completed at!
+	
+	var startDateUnix = new Date().getTime();
+	var TimeDoneUnix = new Date(newDate).getTime()
+	
+	var DiffSekunden = startDateUnix/1000 - TimeDoneUnix/1000;
+	
+	if(DiffSekunden < 0){
+		var DiffSekundenZukunft = DiffSekunden*(-1);
+		var TageVerbleibend = Math.floor(DiffSekundenZukunft/(Tag/1000))
+		
+		var TreesPerDayForLast7Days = Math.floor(getlast7d()/7);
+		var TreesPlantetForVerbleibendeTage = TageVerbleibend * TreesPerDayForLast7Days;
+		
+		var currentTrees = getCurrentTrees();
+		var TreesHochgerechnet = currentTrees + TreesPlantetForVerbleibendeTage;
+		
+		if(TreesHochgerechnet >= 20000000) { //Check if we will win!
+			return "Yeha! At the current rate, we will plant " + numberWithCommas(TreesHochgerechnet) +" trees out of 20M by the end of 2020\nWe currently have " + numberWithCommas(currentTrees) + " and we plant ~" + numberWithCommas(TreesPerDayForLast7Days) + " per day"
+		}else{ //Or Loose
+			return "Oh NO! At the current rate, we will only plant " + numberWithCommas(TreesHochgerechnet) +" trees out of 20M by the end of 2020\nWe currently have " + numberWithCommas(currentTrees) + " and we plant ~" + numberWithCommas(TreesPerDayForLast7Days) + " per day"
+		}
+
+		
+	}else{
+		return "Its Over. Its 2020!"
+	}
 }
 
 bot.start();
@@ -193,12 +240,17 @@ bot.deleteMessage(msg.chat.id, msg.message_id);
 });
 
 bot.on('/last24h',(msg) => {
-msg.reply.text("In the last 24h where " + getlast24h() + " Trees planted.");
+msg.reply.text("In the last 24h where " + numberWithCommas(getlast24h()) + " Trees planted.");
 bot.deleteMessage(msg.chat.id, msg.message_id);
 });
 
 bot.on('/last7d',(msg) => {
-msg.reply.text("In the last 7d where " + getlast7d() + " Trees planted.");
+msg.reply.text("In the last 7d where " + numberWithCommas(getlast7d()) + " Trees planted.");
+bot.deleteMessage(msg.chat.id, msg.message_id);
+});
+
+bot.on('/canwewin',(msg) => {
+msg.reply.text("Well: " + getDiffTotalToCurrentRateWeek());
 bot.deleteMessage(msg.chat.id, msg.message_id);
 });
 
