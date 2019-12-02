@@ -216,9 +216,9 @@ function getDiffTotalToCurrentRateWeek() {
 		var TreesHochgerechnet = currentTrees + TreesPlantetForVerbleibendeTage;
 		
 		if(TreesHochgerechnet >= 20000000) { //Check if we will win!
-			return "Yeha! At the current rate, we will plant " + numberWithCommas(TreesHochgerechnet) +" trees out of 20M by the end of 2019\nWe currently have " + numberWithCommas(currentTrees) + " and we plant ~" + numberWithCommas(TreesPerDayForLast7Days) + " per day\n\nTimeStamp: " + getDateTime(new Date())
+			return "Yeha! At the current rate, we will plant " + numberWithCommas(TreesHochgerechnet) +" trees out of 20M by the end of 2019\nWe currently have " + numberWithCommas(currentTrees) + " and we plant ~" + numberWithCommas(TreesPerDayForLast7Days) + " per day\n\nTimeStamp: " + getDateTimeUTC(new Date()) + " (UTC)"
 		}else{ //Or Loose
-			return "Oh NO! At the current rate, we will only plant " + numberWithCommas(TreesHochgerechnet) +" trees out of 20M by the end of 2019\nWe currently have " + numberWithCommas(currentTrees) + " and we plant ~" + numberWithCommas(TreesPerDayForLast7Days) + " per day\n\nTimeStamp: " + getDateTime(new Date())
+			return "Oh NO! At the current rate, we will only plant " + numberWithCommas(TreesHochgerechnet) +" trees out of 20M by the end of 2019\nWe currently have " + numberWithCommas(currentTrees) + " and we plant ~" + numberWithCommas(TreesPerDayForLast7Days) + " per day\n\nTimeStamp: " + getDateTimeUTC(new Date()) + " (UTC)"
 		}
 
 		
@@ -227,23 +227,24 @@ function getDiffTotalToCurrentRateWeek() {
 	}
 }
 
-function getDateTime(date) {
+function getDateTimeUTC(date) {
+		
 
-		var hour = date.getHours();
+		var hour = date.getUTCHours();
 		hour = (hour < 10 ? "0" : "") + hour;
 
-		var min  = date.getMinutes();
+		var min  = date.getUTCMinutes();
 		min = (min < 10 ? "0" : "") + min;
 
-		var sec  = date.getSeconds();
+		var sec  = date.getUTCSeconds();
 		sec = (sec < 10 ? "0" : "") + sec;
 
-		var year = date.getFullYear();
+		var year = date.getUTCFullYear();
 
-		var month = date.getMonth() + 1;
+		var month = date.getUTCMonth() + 1;
 		month = (month < 10 ? "0" : "") + month;
 
-		var day  = date.getDate();
+		var day  = date.getUTCDate();
 		day = (day < 10 ? "0" : "") + day;
 
 		return day + "." + month + "." + year + " " + hour + ":" + min + ":" + sec;
