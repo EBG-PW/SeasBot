@@ -216,9 +216,9 @@ function getDiffTotalToCurrentRateWeek() {
 		var TreesHochgerechnet = currentTrees + TreesPlantetForVerbleibendeTage;
 		
 		if(TreesHochgerechnet >= 20000000) { //Check if we will win!
-			return "Yeha! At the current rate, we will plant " + numberWithCommas(TreesHochgerechnet) +" trees out of 20M by the end of 2020\nWe currently have " + numberWithCommas(currentTrees) + " and we plant ~" + numberWithCommas(TreesPerDayForLast7Days) + " per day"
+			return "Yeha! At the current rate, we will plant " + numberWithCommas(TreesHochgerechnet) +" trees out of 20M by the end of 2019\nWe currently have " + numberWithCommas(currentTrees) + " and we plant ~" + numberWithCommas(TreesPerDayForLast7Days) + " per day\n\nTimeStamp: " + getDateTime(new Date())
 		}else{ //Or Loose
-			return "Oh NO! At the current rate, we will only plant " + numberWithCommas(TreesHochgerechnet) +" trees out of 20M by the end of 2020\nWe currently have " + numberWithCommas(currentTrees) + " and we plant ~" + numberWithCommas(TreesPerDayForLast7Days) + " per day"
+			return "Oh NO! At the current rate, we will only plant " + numberWithCommas(TreesHochgerechnet) +" trees out of 20M by the end of 2019\nWe currently have " + numberWithCommas(currentTrees) + " and we plant ~" + numberWithCommas(TreesPerDayForLast7Days) + " per day\n\nTimeStamp: " + getDateTime(new Date())
 		}
 
 		
@@ -226,6 +226,28 @@ function getDiffTotalToCurrentRateWeek() {
 		return "Its Over. Its 2020!"
 	}
 }
+
+function getDateTime(date) {
+
+		var hour = date.getHours();
+		hour = (hour < 10 ? "0" : "") + hour;
+
+		var min  = date.getMinutes();
+		min = (min < 10 ? "0" : "") + min;
+
+		var sec  = date.getSeconds();
+		sec = (sec < 10 ? "0" : "") + sec;
+
+		var year = date.getFullYear();
+
+		var month = date.getMonth() + 1;
+		month = (month < 10 ? "0" : "") + month;
+
+		var day  = date.getDate();
+		day = (day < 10 ? "0" : "") + day;
+
+		return day + "." + month + "." + year + " " + hour + ":" + min + ":" + sec;
+	}
 
 bot.start();
 
@@ -235,7 +257,7 @@ bot.deleteMessage(msg.chat.id, msg.message_id);
 });
 
 bot.on(['/start', '/help'],(msg) => {
-msg.reply.text("Hello, i´ll post the stats every 30min to @TeamTreesLog and once a day to @EverythingScience\nYou can have the data with /pushdata\n\nYou can also use /last24h or /last7d to get the amount of trees planted in that given timespan");
+msg.reply.text("Hello, i´ll post the stats every 30min to @TeamTreesLog and once a day to [@EverythingScienceChat](https://t.me/joinchat/BVSfuz-3cLYa38iD3ISeOg)\nYou can have the data with /pushdata\n\nYou can also use /last24h or /last7d to get the amount of trees planted in that given timespan\n\nWanna see if we win? Well i can´t tell you for sure but i can look at the last week and extrapolate it for you with /canwewin", { parseMode: 'markdown', webPreview: false });
 bot.deleteMessage(msg.chat.id, msg.message_id);
 });
 
