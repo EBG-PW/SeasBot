@@ -107,9 +107,9 @@ function getTrees24() {
 			
 			
 			var TreeDiff24 = bodyarr[TreePointer] - LastTree24;
-            bot.sendMessage(-1001068986550, "Trees planted: " + numberWithCommas(bodyarr[TreePointer]) + "\nNew trees(24h): " + numberWithCommas(TreeDiff24) + "\n[View Graph](home.bolverblitz.net:3333)" + "\n\n[Plant more!](teamtrees.org)", { parseMode: 'markdown' });
+				bot.sendMessage(-1001068986550, "Trees planted: " + numberWithCommas(bodyarr[TreePointer]) + "\nNew trees(24h): " + numberWithCommas(TreeDiff24) + "\n[View Graph](home.bolverblitz.net:3333)\n\n" + getDiffTotalToCurrentRateWeek() + "\n\n[Plant more!](teamtrees.org)", { parseMode: 'markdown' });
 			}else{
-			bot.sendMessage(-1001068986550, "The Webpadge is down..." + "\n[View Graph](home.bolverblitz.net:3333)" + "\n\n[Plant more!](teamtrees.org)", { parseMode: 'markdown' });
+				bot.sendMessage(-1001068986550, "The Webpadge is down..." + "\n[View Graph](home.bolverblitz.net:3333)" + "\n\n[Plant more!](teamtrees.org)", { parseMode: 'markdown' });
 			}
 		});
 	}, 1);//900000
