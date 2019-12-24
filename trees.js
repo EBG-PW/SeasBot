@@ -216,9 +216,9 @@ function getDiffTotalToCurrentRateWeek() {
 		var TreesHochgerechnet = currentTrees + TreesPlantetForVerbleibendeTage;
 		
 		if(TreesHochgerechnet >= 20000000) { //Check if we will win!
-			return "Yeha! At the current rate, we will plant " + numberWithCommas(TreesHochgerechnet) +" trees out of 20M by the end of 2019\nWe currently have " + numberWithCommas(currentTrees) + " and we plant ~" + numberWithCommas(TreesPerDayForLast7Days) + " per day\n\nTimeStamp: " + getDateTimeUTC(new Date()) + " (UTC)"
+			return "Yeha! At the current rate, we will plant " + numberWithCommas(TreesHochgerechnet) +" trees out of 20M by the end of 2019\nWe currently have " + numberWithCommas(currentTrees) + " and plant ~" + numberWithCommas(TreesPerDayForLast7Days) + " per day\n\nTimeStamp: " + getDateTimeUTC(new Date()) + " (UTC)"
 		}else{ //Or Loose
-			return "Oh NO! At the current rate, we will only plant " + numberWithCommas(TreesHochgerechnet) +" trees out of 20M by the end of 2019\nWe currently have " + numberWithCommas(currentTrees) + " and we plant ~" + numberWithCommas(TreesPerDayForLast7Days) + " per day\n\nTimeStamp: " + getDateTimeUTC(new Date()) + " (UTC)"
+			return "Oh NO! At the current rate, we will only plant " + numberWithCommas(TreesHochgerechnet) +" trees out of 20M by the end of 2019\nWe currently have " + numberWithCommas(currentTrees) + " and plant ~" + numberWithCommas(TreesPerDayForLast7Days) + " per day\n\nTimeStamp: " + getDateTimeUTC(new Date()) + " (UTC)"
 		}
 
 		
@@ -263,12 +263,12 @@ bot.deleteMessage(msg.chat.id, msg.message_id);
 });
 
 bot.on('/last24h',(msg) => {
-msg.reply.text("In the last 24h where " + numberWithCommas(getlast24h()) + " Trees planted.");
+msg.reply.text("In the last 24h " + numberWithCommas(getlast24h()) + " were Trees planted.");
 bot.deleteMessage(msg.chat.id, msg.message_id);
 });
 
 bot.on('/last7d',(msg) => {
-msg.reply.text("In the last 7d where " + numberWithCommas(getlast7d()) + " Trees planted.");
+msg.reply.text("In the last 7d " + numberWithCommas(getlast7d()) + " were Trees planted.");
 bot.deleteMessage(msg.chat.id, msg.message_id);
 });
 
