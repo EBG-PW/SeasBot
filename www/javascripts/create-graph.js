@@ -2,7 +2,7 @@
  * Parse the data and create a graph with the data.
  */
 function parseData(createGraph) {
-	Papa.parse("../data/TeamTreesChart.csv", {
+	Papa.parse("../data/TrashC.csv", {
 		download: true,
 		complete: function(results) {
 			createGraph(results.data);
