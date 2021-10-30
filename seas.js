@@ -229,7 +229,7 @@ bot.on('/id',(msg) => {
 });
 
 bot.on(['/start', '/help'],(msg) => {
-	msg.reply.text("Hello, i´ll post the stats every hour to @TeamSeasLog and once a day to [@EverythingScienceChat](https://t.me/joinchat/BVSfuz-3cLYa38iD3ISeOg)\nYou can get the data with /pushdata\n\nYou can also use /last24h or /last7d to get the amount of pounds removed in that given timespan\n\nWanna see if we can make it? Well i can´t tell you for sure but i can look at the last week and extrapolate it for you with /canwewin", { parseMode: 'markdown', webPreview: false });
+	msg.reply.text("Hello, i´ll post the stats every 30min to @TeamSeasLog and once a day to [@EverythingScienceChat](https://t.me/joinchat/BVSfuz-3cLYa38iD3ISeOg)\nYou can get the data with /pushdata\n\nYou can also use /last24h or /last7d to get the amount of pounds removed in that given timespan\n\nWanna see if we can make it? Well i can´t tell you for sure but i can look at the last week and extrapolate it for you with /canwewin", { parseMode: 'markdown', webPreview: false });
 	bot.deleteMessage(msg.chat.id, msg.message_id);
 });
 
@@ -273,7 +273,10 @@ setInterval(function(){
 	}else{
 		console.log("Not Time for ES: " + getHourUTC(new Date()))
 	}
-	if(getMinUTC(new Date()) === '00'){
+	if(getMinUTC(new Date()) === '15'){
+		getPounds();
+	}
+	if(getMinUTC(new Date()) === '45'){
 		getPounds();
 	}
 }, 60000); //60000
