@@ -21,9 +21,9 @@ const bot = new Telebot({
 
 console.log("Start Time: " + getHourUTC(new Date()));
 
-var express = require('express');
-var app = express();
-app.use(express.static(__dirname + '/www'));
+const express = require('express');
+const app = express();
+app.use('/', express.static('www'));
 app.listen(process.env.Port);
 
 //getPounds()
