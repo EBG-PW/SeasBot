@@ -85,7 +85,7 @@ function getPounds24() {
 				let TreeDiff24 = Pounds.count - LastTree24;
 				bot.sendMessage(-1001653433862, "Pounds removed: " + numberWithCommas(Pounds.count) + "\nPounds removed (24h): " + numberWithCommas(TreeDiff24) + "\n[View Graph](https://teamseas.ebg.pw)\n\n" + getDiffTotalToCurrentRateWeek() + "\n\n[Remove more!](https://teamseas.org)", { parseMode: 'markdown' });
 			}else{
-				bot.sendMessage(-1001653433862, "The Webpadge is down..." + "\n[View Graph](https://teamseas.ebg.pw)" + "\n\n[Remove more!](https://teamseas.org)", { parseMode: 'markdown' });
+				bot.sendMessage(-1001653433862, "The Webpage is down..." + "\n[View Graph](https://teamseas.ebg.pw)" + "\n\n[Remove more!](https://teamseas.org)", { parseMode: 'markdown' });
 			}
 		});
 	}, 1);//900000
@@ -189,9 +189,9 @@ function getDiffTotalToCurrentRateWeek() {
 		var TreesHochgerechnet = currentTrees + TreesPlantetForVerbleibendeTage;
 		
 		if(TreesHochgerechnet >= 30000000) { //Check if we will win!
-			return "Yeha! At the current rate, we will plant " + numberWithCommas(TreesHochgerechnet) +" trees out of 20M by the end of 2019\nWe currently have " + numberWithCommas(currentTrees) + " and plant ~" + numberWithCommas(TreesPerDayForLast7Days) + " per day\n\nTimeStamp: " + getDateTimeUTC(new Date()) + " (UTC)"
+			return "Yeha! At the current rate, we will remove " + numberWithCommas(TreesHochgerechnet) +" pounds of waste out of 30M by the end of 2021\nWe currently have " + numberWithCommas(currentTrees) + " and remove ~" + numberWithCommas(TreesPerDayForLast7Days) + " per day\n\nTimeStamp: " + getDateTimeUTC(new Date()) + " (UTC)"
 		}else{ //Or Loose
-			return "Oh NO! At the current rate, we will only plant " + numberWithCommas(TreesHochgerechnet) +" trees out of 20M by the end of 2019\nWe currently have " + numberWithCommas(currentTrees) + " and plant ~" + numberWithCommas(TreesPerDayForLast7Days) + " per day\n\nTimeStamp: " + getDateTimeUTC(new Date()) + " (UTC)"
+			return "Oh NO! At the current rate, we will only remove " + numberWithCommas(TreesHochgerechnet) +" pounds of waste out of 30M by the end of 2021\nWe currently have " + numberWithCommas(currentTrees) + " and remove ~" + numberWithCommas(TreesPerDayForLast7Days) + " per day\n\nTimeStamp: " + getDateTimeUTC(new Date()) + " (UTC)"
 		}
 
 		
@@ -235,10 +235,10 @@ bot.on(['/start', '/help'],(msg) => {
 
 bot.on('/last24h',(msg) => {
 	if(!isNaN(getlast24h())){
-		msg.reply.text("In the last 24h " + numberWithCommas(getlast24h()) + " pounds of trash were removed from the ocean.");
+		msg.reply.text("In the last 24h " + numberWithCommas(getlast24h()) + " pounds of waste were removed from the ocean.");
 		bot.deleteMessage(msg.chat.id, msg.message_id);
 	}else{
-		msg.reply.text("I do not have enoth data yet.");
+		msg.reply.text("I do not have enough data yet.");
 	}
 });
 
@@ -247,7 +247,7 @@ bot.on('/last7d',(msg) => {
 		msg.reply.text("In the last 7d " + numberWithCommas(getlast7d()) + " pounds of trash were removed from the ocean.");
 		bot.deleteMessage(msg.chat.id, msg.message_id);
 	}else{
-		msg.reply.text("I do not have enoth data yet.");
+		msg.reply.text("I do not have enough data yet.");
 	}
 });
 
@@ -256,14 +256,14 @@ bot.on('/canwewin',(msg) => {
 		msg.reply.text("Well: " + getDiffTotalToCurrentRateWeek());
 		bot.deleteMessage(msg.chat.id, msg.message_id);
 	}else{
-		msg.reply.text("Well: I do not have enoth data yet.");
+		msg.reply.text("Well: I do not have enough data yet.");
 	}
 });
 
 bot.on('/pushdata',(msg) => {
 	console.log("PushData from User " + msg.from.username + " in Chat " + msg.chat.username);
 	bot.sendDocument(msg.chat.id, DataPath);
-	msg.reply.text("If there is a 0 in the cullom Diff, that means the webpage was not reachable.\nThis file starts at 2021-30-10 00.00 UTC and was measured every 60 min from then.");
+	msg.reply.text("If there is a 0 in the colum \"Diff\", that means the webpage was not reachable.\nThis file starts at 2021-30-10 00.00 UTC and was measured every 60 min from then.");
 	bot.deleteMessage(msg.chat.id, msg.message_id);
 });
 
