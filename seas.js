@@ -51,7 +51,7 @@ function getPounds() {
 				fs.appendFile('./www/data/trashC.csv', TreesChart, (err) => {if (err) console.log(err);
 					log("Trees: " + Pounds.count/1000 + " Diff " + TreeDiff)
 				});
-				bot.sendMessage(-1001653433862, "Pounds removed: " + numberWithCommas(Pounds.count) + "\nPounds removeds (24h): " + numberWithCommas(TreeDiff) + "\n[View Graph](https://teamseas.ebg.pw)" + "\n\n[Remove more!](https://teamseas.org)", { parseMode: 'markdown' });
+				bot.sendMessage(-1001653433862, "Pounds removed: " + numberWithCommas(Pounds.count) + "\nPounds removeds (last 30 min): " + numberWithCommas(TreeDiff) + "\n[View Graph](https://teamseas.ebg.pw)" + "\n\n[Remove more!](https://teamseas.org)", { parseMode: 'markdown' });
 			}else{
 				Trees = "\n" + getDateTime(new Date()) + "," + LastTree + "," + "0"
 				TreesChart = "\n" + getDateTime(new Date()) + "," + LastTree/1000 + "," + "0"
