@@ -186,7 +186,7 @@ function getDiffTotalToCurrentRateWeek() {
 		var TreesPlantetForVerbleibendeTage = TageVerbleibend * TreesPerDayForLast7Days;
 		
 		var currentTrees = getCurrentTrees();
-		var TreesHochgerechnet = currentTrees + TreesPlantetForVerbleibendeTage;
+		var TreesHochgerechnet = Number(currentTrees) + Number(TreesPlantetForVerbleibendeTage);
 		
 		if(TreesHochgerechnet >= 30000000) { //Check if we will win!
 			return "Yeha! At the current rate, we will remove " + numberWithCommas(TreesHochgerechnet) +" pounds of waste out of 30M by the end of 2021\nWe currently have " + numberWithCommas(currentTrees) + " and remove ~" + numberWithCommas(TreesPerDayForLast7Days) + " per day\n\nTimeStamp: " + getDateTimeUTC(new Date()) + " (UTC)"
@@ -252,7 +252,7 @@ bot.on('/last7d',(msg) => {
 });
 
 bot.on('/canwewin',(msg) => {
-	if(!isNaN(getlast24h())){
+	if(!isNaN(getlast7d())){
 		msg.reply.text("Well: " + getDiffTotalToCurrentRateWeek());
 		bot.deleteMessage(msg.chat.id, msg.message_id);
 	}else{
