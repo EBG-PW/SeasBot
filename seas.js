@@ -71,21 +71,19 @@ function getPounds24() {
 	setTimeout(function(){
 		request(url, (err, res, body) => {
 			let Pounds = JSON.parse(body)
-			let Trees = "";
 			let LT = fs.readFileSync('./www/data/trash.csv');
 			let LTarr = LT.toString().split(/\s+/);
 			LTarr = LTarr.toString().split(",");
 			if(LTarr.length >= 146){
-			let LastTree24 = LTarr[LTarr.length-146]
-			//console.log(LastTree24)
+				var LastTree24 = LTarr[LTarr.length-146]
 			}
 			if (err) { return console.log(err); }
 			
 			if(typeof Pounds.count !== 'undefined'){
 				let TreeDiff24 = Pounds.count - LastTree24;
-				bot.sendMessage(-1001653433862, "Pounds removed: " + numberWithCommas(Pounds.count) + "\nPounds removed (24h): " + numberWithCommas(TreeDiff24) + "\n[View Graph](https://teamseas.ebg.pw)\n\n" + getDiffTotalToCurrentRateWeek() + "\n\n[Remove more!](https://teamseas.org)", { parseMode: 'markdown' });
+				bot.sendMessage(-1001068986550, "Pounds removed: " + numberWithCommas(Pounds.count) + "\nPounds removed (24h): " + numberWithCommas(TreeDiff24) + "\n[View Graph](https://teamseas.ebg.pw)\n\n" + getDiffTotalToCurrentRateWeek() + "\n\n[Remove more!](https://teamseas.org)", { parseMode: 'markdown' });
 			}else{
-				bot.sendMessage(-1001653433862, "The Webpage is down..." + "\n[View Graph](https://teamseas.ebg.pw)" + "\n\n[Remove more!](https://teamseas.org)", { parseMode: 'markdown' });
+				bot.sendMessage(-1001068986550, "The Webpage is down..." + "\n[View Graph](https://teamseas.ebg.pw)" + "\n\n[Remove more!](https://teamseas.org)", { parseMode: 'markdown' });
 			}
 		});
 	}, 1);//900000
