@@ -185,11 +185,15 @@ function getDiffTotalToCurrentRateWeek() {
 		
 		var currentTrees = getCurrentTrees();
 		var TreesHochgerechnet = Number(currentTrees) + Number(TreesPlantetForVerbleibendeTage);
+
+		if(isNaN(TreesPerDayForLast7Days)){
+			return "I do not have enough data yet."
+		}
 		
 		if(TreesHochgerechnet >= 30000000) { //Check if we will win!
-			return "Yeha! At the current rate, we will remove " + numberWithCommas(TreesHochgerechnet) +" pounds of waste out of 30M by the end of 2021\nWe currently have " + numberWithCommas(currentTrees) + " and remove ~" + numberWithCommas(TreesPerDayForLast7Days) + " per day\n\nTimeStamp: " + getDateTimeUTC(new Date()) + " (UTC)"
+			return "Yeha! At the current rate, we will remove " + numberWithCommas(TreesHochgerechnet) +" pounds of waste out of 30M by the end of 2021\nWe currently have " + numberWithCommas(currentTrees) + " and remove ~" + numberWithCommas(TreesPerDayForLast7Days) + " per day\n\nTimeStamp: ```" + getDateTimeUTC(new Date()) + "``` (UTC)"
 		}else{ //Or Loose
-			return "Oh NO! At the current rate, we will only remove " + numberWithCommas(TreesHochgerechnet) +" pounds of waste out of 30M by the end of 2021\nWe currently have " + numberWithCommas(currentTrees) + " and remove ~" + numberWithCommas(TreesPerDayForLast7Days) + " per day\n\nTimeStamp: " + getDateTimeUTC(new Date()) + " (UTC)"
+			return "Oh NO! At the current rate, we will only remove " + numberWithCommas(TreesHochgerechnet) +" pounds of waste out of 30M by the end of 2021\nWe currently have " + numberWithCommas(currentTrees) + " and remove ~" + numberWithCommas(TreesPerDayForLast7Days) + " per day\n\nTimeStamp: ```" + getDateTimeUTC(new Date()) + "``` (UTC)"
 		}
 
 		
