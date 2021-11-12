@@ -191,9 +191,9 @@ function getDiffTotalToCurrentRateWeek() {
 		}
 		
 		if(TreesHochgerechnet >= 30000000) { //Check if we will win!
-			return "Yeha! At the current rate, we will remove " + numberWithCommas(TreesHochgerechnet) +" pounds of waste out of 30M by the end of 2021\nWe currently have " + numberWithCommas(currentTrees) + " and remove ~" + numberWithCommas(TreesPerDayForLast7Days) + " per day\n\nTimeStamp: ```" + getDateTimeUTC(new Date()) + "``` (UTC)"
+			return "Yeha! At the current rate, we will remove " + numberWithCommas(TreesHochgerechnet) +" pounds of waste out of 30M by the end of 2021\nWe currently have " + numberWithCommas(currentTrees) + " and remove ~" + numberWithCommas(TreesPerDayForLast7Days) + " per day\n\n```TimeStamp: " + getDateTimeUTC(new Date()) + " (UTC)``"
 		}else{ //Or Loose
-			return "Oh NO! At the current rate, we will only remove " + numberWithCommas(TreesHochgerechnet) +" pounds of waste out of 30M by the end of 2021\nWe currently have " + numberWithCommas(currentTrees) + " and remove ~" + numberWithCommas(TreesPerDayForLast7Days) + " per day\n\nTimeStamp: ```" + getDateTimeUTC(new Date()) + "``` (UTC)"
+			return "Oh NO! At the current rate, we will only remove " + numberWithCommas(TreesHochgerechnet) +" pounds of waste out of 30M by the end of 2021\nWe currently have " + numberWithCommas(currentTrees) + " and remove ~" + numberWithCommas(TreesPerDayForLast7Days) + " per day\n\n```TimeStamp: " + getDateTimeUTC(new Date()) + " (UTC)```"
 		}
 
 		
@@ -246,7 +246,7 @@ bot.on('/last24h',(msg) => {
 
 bot.on('/last7d',(msg) => {
 	if(!isNaN(getlast7d())){
-		msg.reply.text("In the last 7d " + numberWithCommas(getlast7d()) + " pounds of trash were removed from the ocean.");
+		msg.reply.text("In the last 7d " + numberWithCommas(getlast7d()) + " pounds of trash were removed from the ocean.", { parseMode: 'markdown', webPreview: false });
 		bot.deleteMessage(msg.chat.id, msg.message_id);
 	}else{
 		msg.reply.text("I do not have enough data yet.");
@@ -255,7 +255,7 @@ bot.on('/last7d',(msg) => {
 
 bot.on('/canwewin',(msg) => {
 	if(!isNaN(getlast7d())){
-		msg.reply.text("Well: " + getDiffTotalToCurrentRateWeek());
+		msg.reply.text("Well: " + getDiffTotalToCurrentRateWeek(), { parseMode: 'markdown', webPreview: false });
 		bot.deleteMessage(msg.chat.id, msg.message_id);
 	}else{
 		msg.reply.text("Well: I do not have enough data yet.");
@@ -265,7 +265,7 @@ bot.on('/canwewin',(msg) => {
 bot.on('/pushdata',(msg) => {
 	console.log("PushData from User " + msg.from.username + " in Chat " + msg.chat.username);
 	bot.sendDocument(msg.chat.id, DataPath);
-	msg.reply.text("If there is a 0 in the colum \"Diff\", that means the webpage was not reachable.\nThis file starts at 2021-30-10 00.00 UTC and was measured every 60 min from then.");
+	msg.reply.text("If there is a 0 in the colum \"Diff\", that means the webpage was not reachable.\nThis file starts at 2021-30-10 00.00 UTC and was measured every 60 min from then.", { parseMode: 'markdown', webPreview: false });
 	bot.deleteMessage(msg.chat.id, msg.message_id);
 });
 
